@@ -1,0 +1,6 @@
+framework module AstronomerAnalytics {
+  umbrella header "AstronomerAnalytics-umbrella.h"
+
+  export *
+  module * { export * }
+}

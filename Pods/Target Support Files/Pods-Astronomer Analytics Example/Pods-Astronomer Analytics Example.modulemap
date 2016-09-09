@@ -1,0 +1,6 @@
+framework module Pods_Astronomer_Analytics_Example {
+  umbrella header "Pods-Astronomer Analytics Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
