@@ -16,21 +16,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        let config = SEGAnalyticsConfiguration(writeKey: "YOUR_APP_ID")
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let config = SEGAnalyticsConfiguration(writeKey: "qj2Xw4oqf7R2Ez3bh")
 
-        config.trackApplicationLifecycleEvents = true
-        config.recordScreenViews = true
-        config.use(SEGGoogleAnalyticsIntegrationFactory.instance())
-        SEGAnalytics.setupWithConfiguration(config)
+        config?.trackApplicationLifecycleEvents = true
+        config?.recordScreenViews = true
+        config?.use(SEGGoogleAnalyticsIntegrationFactory.instance())
+        SEGAnalytics.setup(with: config)
         
-        SEGAnalytics.sharedAnalytics().group("Astronomer")
-        SEGAnalytics.sharedAnalytics().screen("home")
-        SEGAnalytics.sharedAnalytics().identify("aloisbarreras")
-        SEGAnalytics.sharedAnalytics().alias("aloisbarreras-alias")
+        SEGAnalytics.shared().group("Astronomer")
+        SEGAnalytics.shared().screen("home")
+        SEGAnalytics.shared().identify("aloisbarreras")
+        SEGAnalytics.shared().alias("aloisbarreras-alias")
         
-        SEGAnalytics.sharedAnalytics().track("Custom Analytics Events")
-        SEGAnalytics.sharedAnalytics().flush()
+        SEGAnalytics.shared().track("Custom Analytics Events")
+        SEGAnalytics.shared().flush()
         
         return true
     }
