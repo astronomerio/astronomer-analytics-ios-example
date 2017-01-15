@@ -1,4 +1,6 @@
+#ifdef __OBJC__
 #import <UIKit/UIKit.h>
+#endif
 
 #import "SEGAES256Crypto.h"
 #import "SEGCrypto.h"
@@ -12,10 +14,8 @@
 #import "SEGTrackPayload.h"
 #import "NSData+SEGGZIP.h"
 #import "SEGAnalyticsUtils.h"
-#import "SEGBluetooth.h"
 #import "SEGFileStorage.h"
 #import "SEGHTTPClient.h"
-#import "SEGLocation.h"
 #import "SEGReachability.h"
 #import "SEGSegmentIntegration.h"
 #import "SEGSegmentIntegrationFactory.h"

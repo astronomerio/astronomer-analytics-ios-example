@@ -1,7 +1,7 @@
 PODS:
   - Astronomer-GoogleAnalytics (1.1.4):
     - AstronomerAnalytics (~> 3.0)
-  - AstronomerAnalytics (3.4.2)
+  - AstronomerAnalytics (3.5.6)
 
 DEPENDENCIES:
   - Astronomer-GoogleAnalytics
@@ -9,8 +9,8 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Astronomer-GoogleAnalytics: 7718c35393321bedc46453f0d5855a2a06f32003
-  AstronomerAnalytics: 1baa271b583167da808a91306c1c9e5d5430ce13
+  AstronomerAnalytics: d2593dbf542c1621e1604ebae70c3a5671d5e41f
 
 PODFILE CHECKSUM: a40783756d2d8b307a1220da2d7cd72607784254
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1
