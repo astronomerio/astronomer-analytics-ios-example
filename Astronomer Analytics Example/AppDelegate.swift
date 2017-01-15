@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        let config = SEGAnalyticsConfiguration(writeKey: "qj2Xw4oqf7R2Ez3bh")
+        let config = SEGAnalyticsConfiguration(writeKey: "YOUR_APP_ID_HERE")
 
         config?.trackApplicationLifecycleEvents = true
         config?.recordScreenViews = true

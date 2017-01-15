@@ -7,245 +7,274 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00DD6C3C87374E88D7D9C8DD15276156 /* SEGStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D8C6C157026168A5A6EA2BBC1DA1703 /* SEGStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06DD347C967608B410AAC2D811795E2E /* SEGGoogleAnalyticsIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = D5223A5621275D340AEB33A4E1264A04 /* SEGGoogleAnalyticsIntegration.m */; };
-		07C8EA66D99782351112613B498074D2 /* SEGPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A81B587FE1AA4E0DFEA4347DACC0B8 /* SEGPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AF08721B377DD226D25DA00A55B3D1A /* AstronomerAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82684BE32CF43F5D89D96AACC464834C /* AstronomerAnalytics.framework */; };
-		0CE67F8AF1F18BB5958FAADBFDAD2AAF /* SEGHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E6E3B2FEBB4A10DFA34DD3738E227E /* SEGHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		171B870814B0B8FC703A5E62DFF04688 /* SEGBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 3644846B0B7EAC2E62A07E4BA8358EA2 /* SEGBluetooth.m */; };
-		199093ED6AFBAB8EC48D0D9EA59E4CF8 /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7A2E365AD5219ED6859B478DACCFBE /* GAI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19DE1FF33BA02426399DF52254437ECF /* SEGAnalyticsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B90D62BE82063CA58527306B5776FE /* SEGAnalyticsUtils.m */; };
-		27BA166DD8B1AA6CBA91F180FFF4F2B4 /* SEGScreenPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B55A0B73C78FE50CC873C6E582D8CEC /* SEGScreenPayload.m */; };
-		2969FFB724B9D4DAF9C8534F868B81B1 /* SEGTrackPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1C020452122F8F7D53271F8943480F /* SEGTrackPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2980A89FBE055E0C21E1ED92A4EB95D3 /* SEGAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DD36A7D385A9E5F1032A00F957965C /* SEGAnalytics.m */; };
-		29F2393DFE43926B8B1D84C179356A4B /* SEGGoogleAnalyticsIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C707F2F40DEFF36B1413147C4485BC /* SEGGoogleAnalyticsIntegrationFactory.m */; };
-		3444849B367D25E3D8091145B53C4577 /* SEGSegmentIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CAD251C983EAE6F2331BED48106555 /* SEGSegmentIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3829EED132F66AD0483F6ADF17D41811 /* GAIEcommercePromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = 50356F39F3F0C7E673901D31EA7F3204 /* GAIEcommercePromotion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A5FBCE8F6DFEE43757261C00DF470B4 /* SEGAliasPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E04F94D37B73C612F27AA7D00652D6 /* SEGAliasPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E707CE7185D3F94740F07FE8DAB69FD /* SEGIdentifyPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 17293191A9E8F49E5094358865031312 /* SEGIdentifyPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F2A8ADA390AAD9A5A232DE06FFED1B1 /* GAIEcommerceProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = C271869F2EB94835F07CFFFE75D472B8 /* GAIEcommerceProduct.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43246E480D841940C794574A9B41D2B6 /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B60BB559C647C33554B4F705D94F7B /* GAIEcommerceFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43C523EC9AF34F19C424F241EFAEB003 /* Astronomer-GoogleAnalytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A31CDA9E2B558C801FE0AAE7FAE71CCF /* Astronomer-GoogleAnalytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4533F5AFEBF2F279A5C0929D52DE41BC /* GAIDictionaryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C9BEEFAAF6AF6ACFC5256DF1572C46 /* GAIDictionaryBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4615A4634759F55FA30890312892541B /* SEGPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E2C91B8218AAA0C2DD2AC72AFAC039 /* SEGPayload.m */; };
-		47C047F971C7EB0BA406BB1AD204EA71 /* AstronomerAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 785768284897CBB581E017E52CF3DD57 /* AstronomerAnalytics-dummy.m */; };
-		48BC0688B7955C70E71AFD6CB0730798 /* SEGIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 75170429B0CB33BE843F2D4344F64A78 /* SEGIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A1F8BBE8F7B7488F0F043B75D2A4A84 /* SEGStoreKitTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F2F584180416C4A9417A755EC6EF90 /* SEGStoreKitTracker.m */; };
-		4D03583B82A31248F3667D14F7FF5DA0 /* SEGUserDefaultsStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B197E667C34BBAFD494F7209AC44F1 /* SEGUserDefaultsStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EFD042C1A5EE8824C07DF0064DC7CCB /* SEGSegmentIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 00193E2B1BD4F1DF0307A1866CE3F509 /* SEGSegmentIntegrationFactory.m */; };
-		507B9FFC3ABDB721BE82C47AFA8E4E7B /* GAITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB38C43BD1856B7D35BD14676E2C30A /* GAITracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		564DAA84BAD242CD1619C0D80065EA30 /* SEGTrackPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 981CADD24218880558EBCE6526752BE6 /* SEGTrackPayload.m */; };
-		5768EE2DE4D1E4AAA58B3F9C9168831A /* SEGGroupPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE3E42342E44B168A5E197C21C52DBF /* SEGGroupPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D91B1BC4002D6AB5FB08BD0D9A64DBD /* SEGScreenPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C6370C1C2D23A354420E7A2CE6EAE1 /* SEGScreenPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63BC75DC44BD1363029AACCEC450C572 /* Pods-Astronomer Analytics Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AF13927866ABE3C8BEB1CB750FF68A /* Pods-Astronomer Analytics Example-dummy.m */; };
-		69E3DECBA0E3A9DD3CD19E8B5692E198 /* NSData+SEGGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = CB04B4EF26BCAC1DEE00CA68521E7904 /* NSData+SEGGZIP.m */; };
-		6B10CAE764514C2BA5727A4C3FBFC7E2 /* Pods-Astronomer Analytics Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51323871BCB5B53C43B6F3C67AFF20C9 /* Pods-Astronomer Analytics Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7249D4D29D8760D63C2211101A4AE3F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E04742C1B992B73535B4634EEE09A4 /* Foundation.framework */; };
-		782EB27817B717BDB44E0786CBFB9C86 /* AstronomerAnalytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F690825A7E6A205B7CDF112FE85926B /* AstronomerAnalytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78BA8EB5B350266C962433E3285FEE37 /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA0A7DFEEB75F489D2D99E6F4F25709 /* GAIEcommerceProductAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C71D57A48A505D2A7082024D1460201 /* SEGHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FD177216AF373187D42CC67CE84523 /* SEGHTTPClient.m */; };
-		7DFB82D1E912C7AF88E58F8DB9C76047 /* SEGFileStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DADC9922416115882EEAA8F11683363 /* SEGFileStorage.m */; };
-		7EA2C69BED90B1B4F12318B3480DC4E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E04742C1B992B73535B4634EEE09A4 /* Foundation.framework */; };
-		87500587CAAC9C8352D60089CD971226 /* SEGLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD3E36E740F59F82B797AE487B680E2 /* SEGLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88B1FC193387A2B9A8522D2BE1F5E27D /* SEGAliasPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF38FB694414BF1F8770F291A581966 /* SEGAliasPayload.m */; };
-		89BF91AB73771889559F3D0B1907070B /* UIViewController+SEGScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E0EE9B97909FB8525F5F5B980D76 /* UIViewController+SEGScreen.m */; };
-		944A9EE4AB604EE10F6353C65DA36A72 /* SEGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 758DF04927405A25C9EA0A388C5915D3 /* SEGUtils.m */; };
-		991CEB6B1444F84A7F47284FB51E921C /* SEGAES256Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = E7905019DBDDFC17DE3B459A64214998 /* SEGAES256Crypto.m */; };
-		9BAF86D794BAD268A98D1211E435F54B /* SEGAnalyticsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F23B32823A680569321FFC5D4CE81BC /* SEGAnalyticsUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D258DB1A01DC718875ECC95251AE8E1 /* SEGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F3A9CB25BAAAF2E5AC8DB939FE2585 /* SEGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A40AD2D4C7732D99B685768A171781B4 /* SEGAES256Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = E9F0E0518D4D44002E92E286D9880965 /* SEGAES256Crypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAFE450D75449085A21E34DF2912B072 /* SEGGoogleAnalyticsIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A2804C94E42E154F4C8D28FBE4F768E8 /* SEGGoogleAnalyticsIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC11A978B3AC73B1A3582321C6A62065 /* SEGGroupPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D284A2D09EBDF4D133F970E81EB962F /* SEGGroupPayload.m */; };
-		AEE9A3CD9422BCB0C8856EEA89F584DA /* GAILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A175B14F7B8FF84C836B0A5664A27D /* GAILogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B193D3929FA57DC35A12D1EAFE1A066F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E04742C1B992B73535B4634EEE09A4 /* Foundation.framework */; };
-		B422AD1EF888DB631216D7686B066507 /* SEGSegmentIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = E74F10F6E170DADBBA5FD3E2B29D9F5D /* SEGSegmentIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B54AA7E9D6DB4FCD598ECECA0C44524E /* Astronomer-GoogleAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB7225CC0284400374831397790758 /* Astronomer-GoogleAnalytics-dummy.m */; };
-		B593E3955C0A77322110B1518779C26C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAF982D230BF98BF29427E65681EDD /* CoreData.framework */; };
-		B88DB98B902FC09A5EB00BB87BEE5C04 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD69C6968E3B9C51C4BBB51C7C3D668 /* SystemConfiguration.framework */; };
-		BC9BCFEF87A099518EBE67404F660810 /* GAITrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 082BDAE2B3068A1AB72BCF28F92826E9 /* GAITrackedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF0834FAD449768FF80E403D7090F26B /* UIViewController+SEGScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = E93BAE761F66AA6CD6D03E5D70F46769 /* UIViewController+SEGScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0327383DC84681AE3B1921BD3408005 /* SEGSegmentIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = A840C592974A8FBA5FF2AE12152AEBAE /* SEGSegmentIntegration.m */; };
-		C29E432D9445D53CB62E60704F8BC250 /* SEGLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F93AFC9C915C62321B9A9915620EACA /* SEGLocation.m */; };
-		C4EC44A97EA0F52B22767CBCE76CC92B /* SEGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF14017F493630168FBC9F4091711F6 /* SEGReachability.m */; };
-		CE232823FD9784DDB035D875086AFC04 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296010E313C398694EDD602EB8F86119 /* Security.framework */; };
-		CF1DD077C52F872D5ABCE0AFDCAE103B /* GAIFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 8271041BD6EE0D7274B395E38C95D998 /* GAIFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0A37E3C9735D186259310AA04702E39 /* SEGUserDefaultsStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1D1CF9227B19080501CDE01F40C30D /* SEGUserDefaultsStorage.m */; };
-		D272DB178F1D0B44A23E6FB796EBA46B /* SEGReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = C96F32614092D3CBD09820C4D03BC868 /* SEGReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5EA9E68407D60691AE79002350DEF50 /* SEGCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 50033BD5DD02813B5DC2D3AD540A5269 /* SEGCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8AF5BBF5837F8F9EC4CCF33B205FD9C /* SEGIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD872E65AFF79EAC742DBEDB7251265 /* SEGIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9D7818394D94BFAABF3661D0D9D5247 /* SEGIdentifyPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5BA181D92D79A66C7342A44958A479 /* SEGIdentifyPayload.m */; };
-		E182702CB62C977C8F1622AF239A7322 /* SEGBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = 22570AB389AEFA2AA9F562ABF816AD64 /* SEGBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6E95EC9D1C90E255B52AA7C17AEF326 /* SEGStoreKitTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C5C9FE0F33D291F8F476369D45AACDC /* SEGStoreKitTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F437E834A5DE1AFDB0ED3A9DEAE39330 /* SEGFileStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BB2C362FDAAC26C9E05DB69D668E293 /* SEGFileStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4C0AA19210A8CAFCEF095FB672A0516 /* NSData+SEGGZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = EB73330C04A6E3065D0EE1A6435F530C /* NSData+SEGGZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9CA4977BAF97429AE55126FAA0AF7EB /* SEGGoogleAnalyticsIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5560E3A4EEF99DEDD80700C7FC899D /* SEGGoogleAnalyticsIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE4D15CE8C5A77AD900344D90F09F09D /* SEGAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 033492763D2F64194C5F18FEF33460D9 /* SEGAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF1FB43002F047790A34C612DC907E19 /* libGoogleAnalyticsServices.a in Sources */ = {isa = PBXBuildFile; fileRef = 74079987152A8E0BBDAB2351956AB86F /* libGoogleAnalyticsServices.a */; };
+		03EEAE1059EF76F393FA0872833FE3D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BA275194EEDA2F610E808E61E4736E /* Foundation.framework */; };
+		05BC1B3CBBEBC425C7CE35A71A657328 /* SEGHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 930790506B5C7696228616E5EEB94EA6 /* SEGHTTPClient.m */; };
+		06370AAD0DEFFE723CAF66E4F5D2D992 /* SEGPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA6022936AE58BD2408F07801640728 /* SEGPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		094E47C08B20449761515CB4381AABDC /* SEGTrackPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B336ACFA7BB0C9551620BD22874112E /* SEGTrackPayload.m */; };
+		09E1D95288A292E788C215D6B7D2D16C /* NSData+SEGGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE596FC116FFD01B14D65D8E0A1AB25 /* NSData+SEGGZIP.m */; };
+		0A7D3805680B7591B8B59D189F50026F /* AstronomerAnalytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7684E985044962CF81C63E07493988D9 /* AstronomerAnalytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F88BBE4E7643E83E803D6B66B273DAC /* SEGIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = B4332DA92DA0CE65E4E43820E3E9BB36 /* SEGIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D93BA1A7EB136A09650807F1CC13479 /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 770DC25CA2D773930A08E4A5F2106733 /* GAIEcommerceFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FEF8C940001EB80C1073E996BA8A9D4 /* Astronomer-GoogleAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB443A4983D3F7A91E2A632044FD35 /* Astronomer-GoogleAnalytics-dummy.m */; };
+		2BC6BE21A3C3FB259D86E1E6C5633160 /* SEGSegmentIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 685C229C1AB6AF7FD9554BE9EB40690B /* SEGSegmentIntegrationFactory.m */; };
+		386141BF10FA3B560319705F7E75A692 /* SEGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF516D3DC052336B1E5386CC5DE9530 /* SEGReachability.m */; };
+		40F4A098E4F8349BC60976635B2D01E0 /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = E28AD792F9AE5DFE14CCBC9F7F233337 /* GAI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		455E3CED8FE82BAEFCD77A2A57D953E1 /* SEGIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 33503574C2CB40E1074F222F0F0C407E /* SEGIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46324320406A5D17CDDB2F7238CFA65E /* SEGSegmentIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE1B87156F2C4C1480B0995C740B58D /* SEGSegmentIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A2CDE6C04056D85444F34FB5C0AF43E /* SEGGoogleAnalyticsIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F745DF856A3DA9C1116E334549C05F /* SEGGoogleAnalyticsIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A5861D87245A4D9BCA9CF31FAC31FC4 /* SEGStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F105583E1356D2122787BEB30993483 /* SEGStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B3F71B8CA9632E239EF06D9114F02B7 /* SEGGoogleAnalyticsIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4562721929C2809424332897C2B564 /* SEGGoogleAnalyticsIntegrationFactory.m */; };
+		50BF85A9A70FAFD221E2E5EF64C8C667 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E492AFE28F9EE5AB8C3CC50987A15390 /* Security.framework */; };
+		5F146235BEDDF595E1F2E4D8898569BD /* SEGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E76DB6DC48B1FAA67A335716EEA1A60 /* SEGUtils.m */; };
+		6110D7D70C49F04F55CCFED1C80AEACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BA275194EEDA2F610E808E61E4736E /* Foundation.framework */; };
+		6349A6C29DDCCCE8767BEE625CDA88BA /* SEGScreenPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 724B674134DBD1F0D68BDB337BECFF9C /* SEGScreenPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66A4C96008B10E9756579DE3053C7EFA /* SEGGroupPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B889A0198843CA3C312DE479304F852 /* SEGGroupPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66F0348214E03CAD7249331BB6A5FA47 /* SEGCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C59C9A14C219DE085DD4DFFD9E60C3 /* SEGCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67589AFA04209D2F88EF5695E19ADADC /* SEGReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CD15C5C40E6EFF45426D22082DF1997F /* SEGReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		695707D3D4544702A8E7B6A8A308FED4 /* Pods-Astronomer Analytics Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AF13927866ABE3C8BEB1CB750FF68A /* Pods-Astronomer Analytics Example-dummy.m */; };
+		6AEBD3F3ECFC6B88C0A31718948F5EFB /* SEGPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 0666422222A7BF6511C283117D884770 /* SEGPayload.m */; };
+		6B6802C84B005B02188DC4459DEAC499 /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8BE2420BEEAF9F510A86523D034B10 /* GAIEcommerceProductAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70C18724D2464B4D5E3A8C81FABD1F12 /* GAIFields.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFCC85A5DFE1E1111DFC6645F987493 /* GAIFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726D5954498562C582802273530FC784 /* SEGAnalyticsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C43BAC5418DB10E7C38F261D95DCE4 /* SEGAnalyticsUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72F31B18F84A74A879A036D8756751EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE50BA6E275EBA6C80CDBD9C236D95E /* SystemConfiguration.framework */; };
+		75C10391E09742612D61E4DDDF0FEF41 /* SEGIdentifyPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = D32EDD4020F48EB7A97854C452A5E8A7 /* SEGIdentifyPayload.m */; };
+		76DA46F7F2C00C28E7CCD966FD7F60DB /* SEGUserDefaultsStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE041C8CC0BAAB1A2B7B6348A12FC9 /* SEGUserDefaultsStorage.m */; };
+		7866DDBFDD18829A74169232F6267795 /* GAILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C94369F682304FCECDA9D460CD8E6738 /* GAILogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7908FE9D3708FE9833890D5EAB127ED5 /* SEGTrackPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = A8FE60E1DBC35BDD29DF3E0B0FBE1877 /* SEGTrackPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AA99FB55251375A39CD113002F11A58 /* SEGUserDefaultsStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BD038ABA1AF225EEBEEB1F6CDE6F3C /* SEGUserDefaultsStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8450E8800F81934B9D69B3EE3341EF59 /* SEGSegmentIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF6F89100627B9AA1C00F28B3D339F5 /* SEGSegmentIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C5BC8795CE155F619B7621599A3EB5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DD7ADFDD9B0E1B3A5007BBE334A536 /* CoreData.framework */; };
+		8749D731EC80BE7BBBB086B7C5A46E7F /* Astronomer-GoogleAnalytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC94C603CFBBC421A7A4B7372258632 /* Astronomer-GoogleAnalytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88AB6D6A8273DE14D29684B670C70DB9 /* AstronomerAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82684BE32CF43F5D89D96AACC464834C /* AstronomerAnalytics.framework */; };
+		899CFB5AA0CB48BC13EB030A3E005FC8 /* SEGIdentifyPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3B25030652A39FFD3B2689C96A3121 /* SEGIdentifyPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C52059198A156F7BB94B384A18E10F2 /* SEGGoogleAnalyticsIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C40B4D92CDC485573FB5C688F3224D /* SEGGoogleAnalyticsIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D1B44FADDDF0206236D28D4A0679314 /* SEGAliasPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A200CE72B34CEFA00BB92450D9B8B9 /* SEGAliasPayload.m */; };
+		909B8F006B3F931CE8B56473334C8AE4 /* GAIEcommercePromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = C1FE3291C2185EC8B3818695273FCB27 /* GAIEcommercePromotion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9469EE7A4771A90BA4CBFDCA45AAF388 /* AstronomerAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E10D503834C3E14DAD69AC1DD4246966 /* AstronomerAnalytics-dummy.m */; };
+		9630B96AC90E5A246FAC868BF7886B82 /* SEGAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801352BB3786401EEB53712A72BB07C /* SEGAnalytics.m */; };
+		9A5247960B954DD92B1AC1DF2163B8B3 /* SEGFileStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF8D280CBC8648E51BE87E02980FA5A /* SEGFileStorage.m */; };
+		AC3C1C848204C202C3DD4C380953CADB /* SEGAES256Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 904BD07425FF47C966C28D8CD0B43CB5 /* SEGAES256Crypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC28E8D318F90A0B3385C05E8CE2B16 /* SEGSegmentIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DD4B02D6EED71A3337F9E1DD09F7F1 /* SEGSegmentIntegration.m */; };
+		B2307789757972C05EA582A22713DDCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BA275194EEDA2F610E808E61E4736E /* Foundation.framework */; };
+		B25F6C47A9C6119C60E169DD2275EF8A /* SEGGroupPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFFDC64884096B408B1460E1E65F27D /* SEGGroupPayload.m */; };
+		B57D827CD1AAC484085890FF9F3728B5 /* SEGGoogleAnalyticsIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DDB30DC6537EB7F57D5C6622F8FA38 /* SEGGoogleAnalyticsIntegration.m */; };
+		BB4174BDA4318A2884FC1CF990E006E5 /* GAITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B23FB0C429ED586106F200C84656F08 /* GAITracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2B8CCC2CAFB2FFEE32A000846844889 /* UIViewController+SEGScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8FF7BBD471E76BE1153272E2873B56 /* UIViewController+SEGScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C716A581EDCA3A1969A81A591EC73BCE /* SEGAnalyticsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9028FEF479604AC6A2366360C5AB1 /* SEGAnalyticsUtils.m */; };
+		C832B9B6FB22CBA367D4AEE9D1687165 /* SEGAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 819D39D1A18C2F2782AB8FF941A6B46B /* SEGAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA65AF956C125E2DA2390F7C3CE0E8E7 /* SEGAliasPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE6F447E6EFCA2FCF0CED80961FC5D0 /* SEGAliasPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBE45DB821460B4105E1A867B516306C /* SEGAES256Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D87E01124F155EC22E26D188CD9C08 /* SEGAES256Crypto.m */; };
+		CF5E53E7B7D4F40CAD1431F9CAB21BEC /* SEGStoreKitTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = F334E3D904ECEB2FBB09725B55F21C42 /* SEGStoreKitTracker.m */; };
+		CFF4BA1D36BB7C94744D9F3274EEE9B5 /* SEGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B348CFD21C5E258FFCDB4903E5B6B2A4 /* SEGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1278F6257D3078168DB04CA6BEC95F8 /* libGoogleAnalyticsServices.a in Sources */ = {isa = PBXBuildFile; fileRef = F93A8170B0541B58B444EA97121DFF56 /* libGoogleAnalyticsServices.a */; };
+		D20BD711DCFDB8FAD2ABC997BF37126C /* UIViewController+SEGScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 435DC9A726BC79EA82E534840DC3F991 /* UIViewController+SEGScreen.m */; };
+		DEA6DAD4E537F78616B9A1178367E1DB /* SEGHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8239F4CD327174BE65137F32A21ACE27 /* SEGHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFA08842591BCD9BBB8C40256F192219 /* GAITrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 767FBCA5A62840009A1F3A1224EFD83C /* GAITrackedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E39CF8034B9BBBB4B3B1607ACBA1C8DC /* GAIEcommerceProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6D89C830121A1F205A92BA93CB9833 /* GAIEcommerceProduct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74FECBA11CBB65FDAB33C3A81FF6178 /* SEGScreenPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 21875B4D27982934A9C28F3CE0766DFD /* SEGScreenPayload.m */; };
+		E883E355FA30FF64423132C417145E18 /* SEGFileStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = D8DFD00D0F18F1AEB112F17472E15C6F /* SEGFileStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F41960790A20A8CBE04B0A9DC20662F6 /* NSData+SEGGZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB63AB941096E4C4550043A799D7D7C /* NSData+SEGGZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F53FC512E65884D31F414F003F603A7A /* SEGStoreKitTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC6137BD1685150EB514021205A0AD9 /* SEGStoreKitTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0179D668F7CC1A6F8CED5D92E4CCC9 /* GAIDictionaryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8852EAAA8F9FD6A24520DBB29142D2 /* GAIDictionaryBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF09A126EC85A2E5E777506BCD1D0F5C /* Pods-Astronomer Analytics Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51323871BCB5B53C43B6F3C67AFF20C9 /* Pods-Astronomer Analytics Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01E8DF50F29F31A9CB43780081DEA831 /* PBXContainerItemProxy */ = {
+		0B4FA3BD02A56D597AD84436745F4134 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2E66E651D0FB24ED1764577807C5845D;
-			remoteInfo = AstronomerAnalytics;
-		};
-		65037190B2E839F58A9B8B82626AAAA2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E78D5E1CA31F4A3660E3C4F5D953CA3F;
+			remoteGlobalIDString = 4794AB314F9D4343FE469A0263698664;
 			remoteInfo = "Astronomer-GoogleAnalytics";
 		};
-		8FD052E983CA9487CEC5AEB5BE0C3F3A /* PBXContainerItemProxy */ = {
+		E326134156CE0873D892E7EDAFCFF424 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2E66E651D0FB24ED1764577807C5845D;
+			remoteGlobalIDString = 62E9AC7FF97B17B2667C3D89ED6A5739;
+			remoteInfo = AstronomerAnalytics;
+		};
+		EAB5CFBAD3983F1C9DC6866C2B2196A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E9AC7FF97B17B2667C3D89ED6A5739;
 			remoteInfo = AstronomerAnalytics;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00193E2B1BD4F1DF0307A1866CE3F509 /* SEGSegmentIntegrationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGSegmentIntegrationFactory.m; path = Analytics/Classes/Internal/SEGSegmentIntegrationFactory.m; sourceTree = "<group>"; };
-		02E2C91B8218AAA0C2DD2AC72AFAC039 /* SEGPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGPayload.m; path = Analytics/Classes/Integrations/SEGPayload.m; sourceTree = "<group>"; };
-		033492763D2F64194C5F18FEF33460D9 /* SEGAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalytics.h; path = Analytics/Classes/SEGAnalytics.h; sourceTree = "<group>"; };
-		03A175B14F7B8FF84C836B0A5664A27D /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = Pod/Classes/GAILogger.h; sourceTree = "<group>"; };
-		03CAA3377E0B3471A45A5D31002756F2 /* AstronomerAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AstronomerAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		04C6370C1C2D23A354420E7A2CE6EAE1 /* SEGScreenPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGScreenPayload.h; path = Analytics/Classes/Integrations/SEGScreenPayload.h; sourceTree = "<group>"; };
-		082BDAE2B3068A1AB72BCF28F92826E9 /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = Pod/Classes/GAITrackedViewController.h; sourceTree = "<group>"; };
-		0D1C020452122F8F7D53271F8943480F /* SEGTrackPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGTrackPayload.h; path = Analytics/Classes/Integrations/SEGTrackPayload.h; sourceTree = "<group>"; };
-		12E04742C1B992B73535B4634EEE09A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		17293191A9E8F49E5094358865031312 /* SEGIdentifyPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIdentifyPayload.h; path = Analytics/Classes/Integrations/SEGIdentifyPayload.h; sourceTree = "<group>"; };
-		17C707F2F40DEFF36B1413147C4485BC /* SEGGoogleAnalyticsIntegrationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGGoogleAnalyticsIntegrationFactory.m; path = Pod/Classes/SEGGoogleAnalyticsIntegrationFactory.m; sourceTree = "<group>"; };
-		1D284A2D09EBDF4D133F970E81EB962F /* SEGGroupPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGGroupPayload.m; path = Analytics/Classes/Integrations/SEGGroupPayload.m; sourceTree = "<group>"; };
-		1DADC9922416115882EEAA8F11683363 /* SEGFileStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGFileStorage.m; path = Analytics/Classes/Internal/SEGFileStorage.m; sourceTree = "<group>"; };
-		22570AB389AEFA2AA9F562ABF816AD64 /* SEGBluetooth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGBluetooth.h; path = Analytics/Classes/Internal/SEGBluetooth.h; sourceTree = "<group>"; };
-		23B90D62BE82063CA58527306B5776FE /* SEGAnalyticsUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsUtils.m; path = Analytics/Classes/Internal/SEGAnalyticsUtils.m; sourceTree = "<group>"; };
-		296010E313C398694EDD602EB8F86119 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		2DEB7225CC0284400374831397790758 /* Astronomer-GoogleAnalytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Astronomer-GoogleAnalytics-dummy.m"; sourceTree = "<group>"; };
-		31F3A9CB25BAAAF2E5AC8DB939FE2585 /* SEGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGUtils.h; path = Analytics/Classes/Internal/SEGUtils.h; sourceTree = "<group>"; };
+		03C43BAC5418DB10E7C38F261D95DCE4 /* SEGAnalyticsUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsUtils.h; path = Analytics/Classes/Internal/SEGAnalyticsUtils.h; sourceTree = "<group>"; };
+		03CAA3377E0B3471A45A5D31002756F2 /* AstronomerAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AstronomerAnalytics.framework; path = AstronomerAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0666422222A7BF6511C283117D884770 /* SEGPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGPayload.m; path = Analytics/Classes/Integrations/SEGPayload.m; sourceTree = "<group>"; };
+		0CF516D3DC052336B1E5386CC5DE9530 /* SEGReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGReachability.m; path = Analytics/Classes/Internal/SEGReachability.m; sourceTree = "<group>"; };
+		15DD7ADFDD9B0E1B3A5007BBE334A536 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		16A200CE72B34CEFA00BB92450D9B8B9 /* SEGAliasPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAliasPayload.m; path = Analytics/Classes/Integrations/SEGAliasPayload.m; sourceTree = "<group>"; };
+		199BB82B4A0A6D894151691290E5A5DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21875B4D27982934A9C28F3CE0766DFD /* SEGScreenPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGScreenPayload.m; path = Analytics/Classes/Integrations/SEGScreenPayload.m; sourceTree = "<group>"; };
+		2801352BB3786401EEB53712A72BB07C /* SEGAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalytics.m; path = Analytics/Classes/SEGAnalytics.m; sourceTree = "<group>"; };
+		2BF6F89100627B9AA1C00F28B3D339F5 /* SEGSegmentIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSegmentIntegrationFactory.h; path = Analytics/Classes/Internal/SEGSegmentIntegrationFactory.h; sourceTree = "<group>"; };
+		2DC94C603CFBBC421A7A4B7372258632 /* Astronomer-GoogleAnalytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Astronomer-GoogleAnalytics-umbrella.h"; sourceTree = "<group>"; };
+		2E76DB6DC48B1FAA67A335716EEA1A60 /* SEGUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGUtils.m; path = Analytics/Classes/Internal/SEGUtils.m; sourceTree = "<group>"; };
+		2EE6F447E6EFCA2FCF0CED80961FC5D0 /* SEGAliasPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAliasPayload.h; path = Analytics/Classes/Integrations/SEGAliasPayload.h; sourceTree = "<group>"; };
+		2EEB443A4983D3F7A91E2A632044FD35 /* Astronomer-GoogleAnalytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Astronomer-GoogleAnalytics-dummy.m"; sourceTree = "<group>"; };
+		2F105583E1356D2122787BEB30993483 /* SEGStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGStorage.h; path = Analytics/Classes/Internal/SEGStorage.h; sourceTree = "<group>"; };
+		33503574C2CB40E1074F222F0F0C407E /* SEGIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegrationFactory.h; path = Analytics/Classes/Integrations/SEGIntegrationFactory.h; sourceTree = "<group>"; };
 		36310EABE0238F7FAE2A1FF1A9A70423 /* Pods-Astronomer Analytics Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Astronomer Analytics Example-frameworks.sh"; sourceTree = "<group>"; };
-		3644846B0B7EAC2E62A07E4BA8358EA2 /* SEGBluetooth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGBluetooth.m; path = Analytics/Classes/Internal/SEGBluetooth.m; sourceTree = "<group>"; };
-		3BB2C362FDAAC26C9E05DB69D668E293 /* SEGFileStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGFileStorage.h; path = Analytics/Classes/Internal/SEGFileStorage.h; sourceTree = "<group>"; };
-		3C5C9FE0F33D291F8F476369D45AACDC /* SEGStoreKitTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGStoreKitTracker.h; path = Analytics/Classes/Internal/SEGStoreKitTracker.h; sourceTree = "<group>"; };
-		437C1BF183D0483DB2A6B0B9E391CC18 /* AstronomerAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AstronomerAnalytics.xcconfig; sourceTree = "<group>"; };
-		43C64EE14C453F34791B12D5365AFD16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F93AFC9C915C62321B9A9915620EACA /* SEGLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGLocation.m; path = Analytics/Classes/Internal/SEGLocation.m; sourceTree = "<group>"; };
-		4FE3E42342E44B168A5E197C21C52DBF /* SEGGroupPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGGroupPayload.h; path = Analytics/Classes/Integrations/SEGGroupPayload.h; sourceTree = "<group>"; };
-		50033BD5DD02813B5DC2D3AD540A5269 /* SEGCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGCrypto.h; path = Analytics/Classes/Crypto/SEGCrypto.h; sourceTree = "<group>"; };
-		50356F39F3F0C7E673901D31EA7F3204 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = Pod/Classes/GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		3B213EB8D961CD1725544D896719EEB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B23FB0C429ED586106F200C84656F08 /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = Pod/Classes/GAITracker.h; sourceTree = "<group>"; };
+		42E545F55B73AD9A5081AA3DC2EBE508 /* Astronomer-GoogleAnalytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Astronomer-GoogleAnalytics-prefix.pch"; sourceTree = "<group>"; };
+		435DC9A726BC79EA82E534840DC3F991 /* UIViewController+SEGScreen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SEGScreen.m"; path = "Analytics/Classes/Internal/UIViewController+SEGScreen.m"; sourceTree = "<group>"; };
+		49C9028FEF479604AC6A2366360C5AB1 /* SEGAnalyticsUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsUtils.m; path = Analytics/Classes/Internal/SEGAnalyticsUtils.m; sourceTree = "<group>"; };
 		51323871BCB5B53C43B6F3C67AFF20C9 /* Pods-Astronomer Analytics Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Astronomer Analytics Example-umbrella.h"; sourceTree = "<group>"; };
-		52CAD251C983EAE6F2331BED48106555 /* SEGSegmentIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSegmentIntegration.h; path = Analytics/Classes/Internal/SEGSegmentIntegration.h; sourceTree = "<group>"; };
-		54DC027151246DE6FFB8C214A2957FAD /* Pods-Astronomer Analytics Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Astronomer Analytics Example.modulemap"; sourceTree = "<group>"; };
+		52C40B4D92CDC485573FB5C688F3224D /* SEGGoogleAnalyticsIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGGoogleAnalyticsIntegrationFactory.h; path = Pod/Classes/SEGGoogleAnalyticsIntegrationFactory.h; sourceTree = "<group>"; };
+		54DC027151246DE6FFB8C214A2957FAD /* Pods-Astronomer Analytics Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Astronomer Analytics Example.modulemap"; sourceTree = "<group>"; };
 		593C5FF298C00284FC845A83CC963BD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607ECB91696C0EC3342AEEAD95CF7E25 /* AstronomerAnalytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AstronomerAnalytics-prefix.pch"; sourceTree = "<group>"; };
-		60F2F584180416C4A9417A755EC6EF90 /* SEGStoreKitTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGStoreKitTracker.m; path = Analytics/Classes/Internal/SEGStoreKitTracker.m; sourceTree = "<group>"; };
-		6B55A0B73C78FE50CC873C6E582D8CEC /* SEGScreenPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGScreenPayload.m; path = Analytics/Classes/Integrations/SEGScreenPayload.m; sourceTree = "<group>"; };
-		6C7A2E365AD5219ED6859B478DACCFBE /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = Pod/Classes/GAI.h; sourceTree = "<group>"; };
-		6DA0A7DFEEB75F489D2D99E6F4F25709 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = Pod/Classes/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
-		70710BD6263CA9F7FB9DE320AA046C8F /* Astronomer-GoogleAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Astronomer-GoogleAnalytics.xcconfig"; sourceTree = "<group>"; };
-		7141E0EE9B97909FB8525F5F5B980D76 /* UIViewController+SEGScreen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SEGScreen.m"; path = "Analytics/Classes/Internal/UIViewController+SEGScreen.m"; sourceTree = "<group>"; };
-		74079987152A8E0BBDAB2351956AB86F /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = Pod/Classes/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
-		75170429B0CB33BE843F2D4344F64A78 /* SEGIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegration.h; path = Analytics/Classes/Integrations/SEGIntegration.h; sourceTree = "<group>"; };
-		758DF04927405A25C9EA0A388C5915D3 /* SEGUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGUtils.m; path = Analytics/Classes/Internal/SEGUtils.m; sourceTree = "<group>"; };
-		785768284897CBB581E017E52CF3DD57 /* AstronomerAnalytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AstronomerAnalytics-dummy.m"; sourceTree = "<group>"; };
-		7BB38C43BD1856B7D35BD14676E2C30A /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = Pod/Classes/GAITracker.h; sourceTree = "<group>"; };
-		7D8C6C157026168A5A6EA2BBC1DA1703 /* SEGStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGStorage.h; path = Analytics/Classes/Internal/SEGStorage.h; sourceTree = "<group>"; };
-		7F23B32823A680569321FFC5D4CE81BC /* SEGAnalyticsUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsUtils.h; path = Analytics/Classes/Internal/SEGAnalyticsUtils.h; sourceTree = "<group>"; };
-		7F690825A7E6A205B7CDF112FE85926B /* AstronomerAnalytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AstronomerAnalytics-umbrella.h"; sourceTree = "<group>"; };
-		81B60BB559C647C33554B4F705D94F7B /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = Pod/Classes/GAIEcommerceFields.h; sourceTree = "<group>"; };
+		5AB63AB941096E4C4550043A799D7D7C /* NSData+SEGGZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SEGGZIP.h"; path = "Analytics/Classes/Internal/NSData+SEGGZIP.h"; sourceTree = "<group>"; };
+		5B8FF7BBD471E76BE1153272E2873B56 /* UIViewController+SEGScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SEGScreen.h"; path = "Analytics/Classes/Internal/UIViewController+SEGScreen.h"; sourceTree = "<group>"; };
+		5C132D207DC717372B5C5C3709528177 /* AstronomerAnalytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AstronomerAnalytics.modulemap; sourceTree = "<group>"; };
+		5F8852EAAA8F9FD6A24520DBB29142D2 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = Pod/Classes/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		60DDB30DC6537EB7F57D5C6622F8FA38 /* SEGGoogleAnalyticsIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGGoogleAnalyticsIntegration.m; path = Pod/Classes/SEGGoogleAnalyticsIntegration.m; sourceTree = "<group>"; };
+		62C6FC0C8DF28BB2EDCC18FCB6E68774 /* Astronomer-GoogleAnalytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Astronomer-GoogleAnalytics.modulemap"; sourceTree = "<group>"; };
+		685C229C1AB6AF7FD9554BE9EB40690B /* SEGSegmentIntegrationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGSegmentIntegrationFactory.m; path = Analytics/Classes/Internal/SEGSegmentIntegrationFactory.m; sourceTree = "<group>"; };
+		6E4562721929C2809424332897C2B564 /* SEGGoogleAnalyticsIntegrationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGGoogleAnalyticsIntegrationFactory.m; path = Pod/Classes/SEGGoogleAnalyticsIntegrationFactory.m; sourceTree = "<group>"; };
+		724B674134DBD1F0D68BDB337BECFF9C /* SEGScreenPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGScreenPayload.h; path = Analytics/Classes/Integrations/SEGScreenPayload.h; sourceTree = "<group>"; };
+		74D87E01124F155EC22E26D188CD9C08 /* SEGAES256Crypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAES256Crypto.m; path = Analytics/Classes/Crypto/SEGAES256Crypto.m; sourceTree = "<group>"; };
+		767FBCA5A62840009A1F3A1224EFD83C /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = Pod/Classes/GAITrackedViewController.h; sourceTree = "<group>"; };
+		7684E985044962CF81C63E07493988D9 /* AstronomerAnalytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AstronomerAnalytics-umbrella.h"; sourceTree = "<group>"; };
+		770DC25CA2D773930A08E4A5F2106733 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = Pod/Classes/GAIEcommerceFields.h; sourceTree = "<group>"; };
+		79F745DF856A3DA9C1116E334549C05F /* SEGGoogleAnalyticsIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGGoogleAnalyticsIntegration.h; path = Pod/Classes/SEGGoogleAnalyticsIntegration.h; sourceTree = "<group>"; };
+		7B336ACFA7BB0C9551620BD22874112E /* SEGTrackPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGTrackPayload.m; path = Analytics/Classes/Integrations/SEGTrackPayload.m; sourceTree = "<group>"; };
+		7EF8D280CBC8648E51BE87E02980FA5A /* SEGFileStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGFileStorage.m; path = Analytics/Classes/Internal/SEGFileStorage.m; sourceTree = "<group>"; };
+		819D39D1A18C2F2782AB8FF941A6B46B /* SEGAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalytics.h; path = Analytics/Classes/SEGAnalytics.h; sourceTree = "<group>"; };
+		8239F4CD327174BE65137F32A21ACE27 /* SEGHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGHTTPClient.h; path = Analytics/Classes/Internal/SEGHTTPClient.h; sourceTree = "<group>"; };
 		82684BE32CF43F5D89D96AACC464834C /* AstronomerAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AstronomerAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8271041BD6EE0D7274B395E38C95D998 /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = Pod/Classes/GAIFields.h; sourceTree = "<group>"; };
-		8321CDFC4FC7F77D0C72BEDD8AB55C2C /* AstronomerAnalytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AstronomerAnalytics.modulemap; sourceTree = "<group>"; };
 		87AF13927866ABE3C8BEB1CB750FF68A /* Pods-Astronomer Analytics Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Astronomer Analytics Example-dummy.m"; sourceTree = "<group>"; };
-		88C9BEEFAAF6AF6ACFC5256DF1572C46 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = Pod/Classes/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
 		8B71F6AF4226504366A3097C7D8D4BCB /* Pods-Astronomer Analytics Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Astronomer Analytics Example-resources.sh"; sourceTree = "<group>"; };
-		8DFD061553270B3EE16AD234B745DDEA /* Pods_Astronomer_Analytics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Astronomer_Analytics_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91A81B587FE1AA4E0DFEA4347DACC0B8 /* SEGPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGPayload.h; path = Analytics/Classes/Integrations/SEGPayload.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		981CADD24218880558EBCE6526752BE6 /* SEGTrackPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGTrackPayload.m; path = Analytics/Classes/Integrations/SEGTrackPayload.m; sourceTree = "<group>"; };
+		8B889A0198843CA3C312DE479304F852 /* SEGGroupPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGGroupPayload.h; path = Analytics/Classes/Integrations/SEGGroupPayload.h; sourceTree = "<group>"; };
+		8DFD061553270B3EE16AD234B745DDEA /* Pods_Astronomer_Analytics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Astronomer_Analytics_Example.framework; path = "Pods-Astronomer Analytics Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904BD07425FF47C966C28D8CD0B43CB5 /* SEGAES256Crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAES256Crypto.h; path = Analytics/Classes/Crypto/SEGAES256Crypto.h; sourceTree = "<group>"; };
+		930790506B5C7696228616E5EEB94EA6 /* SEGHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGHTTPClient.m; path = Analytics/Classes/Internal/SEGHTTPClient.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94BD038ABA1AF225EEBEEB1F6CDE6F3C /* SEGUserDefaultsStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGUserDefaultsStorage.h; path = Analytics/Classes/Internal/SEGUserDefaultsStorage.h; sourceTree = "<group>"; };
 		9A2114EF97E29C80434C7B5582BBE8DF /* Pods-Astronomer Analytics Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Astronomer Analytics Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9AF14017F493630168FBC9F4091711F6 /* SEGReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGReachability.m; path = Analytics/Classes/Internal/SEGReachability.m; sourceTree = "<group>"; };
-		9CEDC8044268AAE5EEAF60E424CDF260 /* Astronomer-GoogleAnalytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Astronomer-GoogleAnalytics.modulemap"; sourceTree = "<group>"; };
-		A2804C94E42E154F4C8D28FBE4F768E8 /* SEGGoogleAnalyticsIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGGoogleAnalyticsIntegrationFactory.h; path = Pod/Classes/SEGGoogleAnalyticsIntegrationFactory.h; sourceTree = "<group>"; };
-		A31CDA9E2B558C801FE0AAE7FAE71CCF /* Astronomer-GoogleAnalytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Astronomer-GoogleAnalytics-umbrella.h"; sourceTree = "<group>"; };
-		A72E7761E3578D5D4D25CFA6F5C7E7BB /* Astronomer-GoogleAnalytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Astronomer-GoogleAnalytics-prefix.pch"; sourceTree = "<group>"; };
-		A840C592974A8FBA5FF2AE12152AEBAE /* SEGSegmentIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGSegmentIntegration.m; path = Analytics/Classes/Internal/SEGSegmentIntegration.m; sourceTree = "<group>"; };
+		9BCE041C8CC0BAAB1A2B7B6348A12FC9 /* SEGUserDefaultsStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGUserDefaultsStorage.m; path = Analytics/Classes/Internal/SEGUserDefaultsStorage.m; sourceTree = "<group>"; };
+		A8FE60E1DBC35BDD29DF3E0B0FBE1877 /* SEGTrackPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGTrackPayload.h; path = Analytics/Classes/Integrations/SEGTrackPayload.h; sourceTree = "<group>"; };
+		A9C59C9A14C219DE085DD4DFFD9E60C3 /* SEGCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGCrypto.h; path = Analytics/Classes/Crypto/SEGCrypto.h; sourceTree = "<group>"; };
 		AA46F0A19B1F53105BB5EFAA3A505B04 /* Pods-Astronomer Analytics Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Astronomer Analytics Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AA52EF19B29DBAAFFB9B52A4C75A2B79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC5560E3A4EEF99DEDD80700C7FC899D /* SEGGoogleAnalyticsIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGGoogleAnalyticsIntegration.h; path = Pod/Classes/SEGGoogleAnalyticsIntegration.h; sourceTree = "<group>"; };
-		B4B197E667C34BBAFD494F7209AC44F1 /* SEGUserDefaultsStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGUserDefaultsStorage.h; path = Analytics/Classes/Internal/SEGUserDefaultsStorage.h; sourceTree = "<group>"; };
-		B88244F6F1635D641D1906BAC50ADF2C /* Astronomer_GoogleAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Astronomer_GoogleAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C271869F2EB94835F07CFFFE75D472B8 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = Pod/Classes/GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		B348CFD21C5E258FFCDB4903E5B6B2A4 /* SEGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGUtils.h; path = Analytics/Classes/Internal/SEGUtils.h; sourceTree = "<group>"; };
+		B4332DA92DA0CE65E4E43820E3E9BB36 /* SEGIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegration.h; path = Analytics/Classes/Integrations/SEGIntegration.h; sourceTree = "<group>"; };
+		B6DD4B02D6EED71A3337F9E1DD09F7F1 /* SEGSegmentIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGSegmentIntegration.m; path = Analytics/Classes/Internal/SEGSegmentIntegration.m; sourceTree = "<group>"; };
+		B88244F6F1635D641D1906BAC50ADF2C /* Astronomer_GoogleAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Astronomer_GoogleAnalytics.framework; path = "Astronomer-GoogleAnalytics.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC6137BD1685150EB514021205A0AD9 /* SEGStoreKitTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGStoreKitTracker.h; path = Analytics/Classes/Internal/SEGStoreKitTracker.h; sourceTree = "<group>"; };
+		BBFCC85A5DFE1E1111DFC6645F987493 /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = Pod/Classes/GAIFields.h; sourceTree = "<group>"; };
+		C1FE3291C2185EC8B3818695273FCB27 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = Pod/Classes/GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		C31FFEC995723277BA61D1D8847A11D4 /* AstronomerAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AstronomerAnalytics.xcconfig; sourceTree = "<group>"; };
 		C3D93398C57CC5E731ED0DF3FCBFB33C /* Pods-Astronomer Analytics Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Astronomer Analytics Example.release.xcconfig"; sourceTree = "<group>"; };
-		C3E04F94D37B73C612F27AA7D00652D6 /* SEGAliasPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAliasPayload.h; path = Analytics/Classes/Integrations/SEGAliasPayload.h; sourceTree = "<group>"; };
-		C96F32614092D3CBD09820C4D03BC868 /* SEGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGReachability.h; path = Analytics/Classes/Internal/SEGReachability.h; sourceTree = "<group>"; };
-		CB04B4EF26BCAC1DEE00CA68521E7904 /* NSData+SEGGZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SEGGZIP.m"; path = "Analytics/Classes/Internal/NSData+SEGGZIP.m"; sourceTree = "<group>"; };
-		D1DD36A7D385A9E5F1032A00F957965C /* SEGAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalytics.m; path = Analytics/Classes/SEGAnalytics.m; sourceTree = "<group>"; };
-		D1E6E3B2FEBB4A10DFA34DD3738E227E /* SEGHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGHTTPClient.h; path = Analytics/Classes/Internal/SEGHTTPClient.h; sourceTree = "<group>"; };
-		D3FD177216AF373187D42CC67CE84523 /* SEGHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGHTTPClient.m; path = Analytics/Classes/Internal/SEGHTTPClient.m; sourceTree = "<group>"; };
-		D5223A5621275D340AEB33A4E1264A04 /* SEGGoogleAnalyticsIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGGoogleAnalyticsIntegration.m; path = Pod/Classes/SEGGoogleAnalyticsIntegration.m; sourceTree = "<group>"; };
-		DFDAF982D230BF98BF29427E65681EDD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
-		E74F10F6E170DADBBA5FD3E2B29D9F5D /* SEGSegmentIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSegmentIntegrationFactory.h; path = Analytics/Classes/Internal/SEGSegmentIntegrationFactory.h; sourceTree = "<group>"; };
-		E7905019DBDDFC17DE3B459A64214998 /* SEGAES256Crypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAES256Crypto.m; path = Analytics/Classes/Crypto/SEGAES256Crypto.m; sourceTree = "<group>"; };
-		E93BAE761F66AA6CD6D03E5D70F46769 /* UIViewController+SEGScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SEGScreen.h"; path = "Analytics/Classes/Internal/UIViewController+SEGScreen.h"; sourceTree = "<group>"; };
-		E9F0E0518D4D44002E92E286D9880965 /* SEGAES256Crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAES256Crypto.h; path = Analytics/Classes/Crypto/SEGAES256Crypto.h; sourceTree = "<group>"; };
-		EB73330C04A6E3065D0EE1A6435F530C /* NSData+SEGGZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SEGGZIP.h"; path = "Analytics/Classes/Internal/NSData+SEGGZIP.h"; sourceTree = "<group>"; };
-		EC1D1CF9227B19080501CDE01F40C30D /* SEGUserDefaultsStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGUserDefaultsStorage.m; path = Analytics/Classes/Internal/SEGUserDefaultsStorage.m; sourceTree = "<group>"; };
-		EC5BA181D92D79A66C7342A44958A479 /* SEGIdentifyPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGIdentifyPayload.m; path = Analytics/Classes/Integrations/SEGIdentifyPayload.m; sourceTree = "<group>"; };
+		C94369F682304FCECDA9D460CD8E6738 /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = Pod/Classes/GAILogger.h; sourceTree = "<group>"; };
+		CAE596FC116FFD01B14D65D8E0A1AB25 /* NSData+SEGGZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SEGGZIP.m"; path = "Analytics/Classes/Internal/NSData+SEGGZIP.m"; sourceTree = "<group>"; };
+		CD15C5C40E6EFF45426D22082DF1997F /* SEGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGReachability.h; path = Analytics/Classes/Internal/SEGReachability.h; sourceTree = "<group>"; };
+		CD3B25030652A39FFD3B2689C96A3121 /* SEGIdentifyPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIdentifyPayload.h; path = Analytics/Classes/Integrations/SEGIdentifyPayload.h; sourceTree = "<group>"; };
+		CE6D89C830121A1F205A92BA93CB9833 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = Pod/Classes/GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		D18668DA2B9BFC40B33439E605BD9528 /* AstronomerAnalytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AstronomerAnalytics-prefix.pch"; sourceTree = "<group>"; };
+		D32EDD4020F48EB7A97854C452A5E8A7 /* SEGIdentifyPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGIdentifyPayload.m; path = Analytics/Classes/Integrations/SEGIdentifyPayload.m; sourceTree = "<group>"; };
+		D8DFD00D0F18F1AEB112F17472E15C6F /* SEGFileStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGFileStorage.h; path = Analytics/Classes/Internal/SEGFileStorage.h; sourceTree = "<group>"; };
+		DE8BE2420BEEAF9F510A86523D034B10 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = Pod/Classes/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		E10D503834C3E14DAD69AC1DD4246966 /* AstronomerAnalytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AstronomerAnalytics-dummy.m"; sourceTree = "<group>"; };
+		E1BA275194EEDA2F610E808E61E4736E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E28AD792F9AE5DFE14CCBC9F7F233337 /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = Pod/Classes/GAI.h; sourceTree = "<group>"; };
+		E492AFE28F9EE5AB8C3CC50987A15390 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		EAFFDC64884096B408B1460E1E65F27D /* SEGGroupPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGGroupPayload.m; path = Analytics/Classes/Integrations/SEGGroupPayload.m; sourceTree = "<group>"; };
+		ECE50BA6E275EBA6C80CDBD9C236D95E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		EE595730512F859252CB12FED61E3C6D /* Pods-Astronomer Analytics Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Astronomer Analytics Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EFD3E36E740F59F82B797AE487B680E2 /* SEGLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGLocation.h; path = Analytics/Classes/Internal/SEGLocation.h; sourceTree = "<group>"; };
-		FDD872E65AFF79EAC742DBEDB7251265 /* SEGIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegrationFactory.h; path = Analytics/Classes/Integrations/SEGIntegrationFactory.h; sourceTree = "<group>"; };
-		FEF38FB694414BF1F8770F291A581966 /* SEGAliasPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAliasPayload.m; path = Analytics/Classes/Integrations/SEGAliasPayload.m; sourceTree = "<group>"; };
-		FFD69C6968E3B9C51C4BBB51C7C3D668 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		F334E3D904ECEB2FBB09725B55F21C42 /* SEGStoreKitTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGStoreKitTracker.m; path = Analytics/Classes/Internal/SEGStoreKitTracker.m; sourceTree = "<group>"; };
+		F93A8170B0541B58B444EA97121DFF56 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = Pod/Classes/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		FAA6022936AE58BD2408F07801640728 /* SEGPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGPayload.h; path = Analytics/Classes/Integrations/SEGPayload.h; sourceTree = "<group>"; };
+		FEE1B87156F2C4C1480B0995C740B58D /* SEGSegmentIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSegmentIntegration.h; path = Analytics/Classes/Internal/SEGSegmentIntegration.h; sourceTree = "<group>"; };
+		FFCA32FCD8CFC62274C0D455BF128958 /* Astronomer-GoogleAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Astronomer-GoogleAnalytics.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		163C8316C3053FE4E2AC631649F1CF94 /* Frameworks */ = {
+		20CE731C91E79EB42C2228CBD5603F9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EA2C69BED90B1B4F12318B3480DC4E4 /* Foundation.framework in Frameworks */,
-				CE232823FD9784DDB035D875086AFC04 /* Security.framework in Frameworks */,
+				03EEAE1059EF76F393FA0872833FE3D3 /* Foundation.framework in Frameworks */,
+				50BF85A9A70FAFD221E2E5EF64C8C667 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FFCD202B57695FCFB9142B13B12321C /* Frameworks */ = {
+		68E1225D5E13FD44D7AAADBD751F21B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7249D4D29D8760D63C2211101A4AE3F9 /* Foundation.framework in Frameworks */,
+				B2307789757972C05EA582A22713DDCF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BEA1C148A7C7A56333D00C114B773A4 /* Frameworks */ = {
+		C5E414812B847960F57796C7B348657F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AF08721B377DD226D25DA00A55B3D1A /* AstronomerAnalytics.framework in Frameworks */,
-				B593E3955C0A77322110B1518779C26C /* CoreData.framework in Frameworks */,
-				B193D3929FA57DC35A12D1EAFE1A066F /* Foundation.framework in Frameworks */,
-				B88DB98B902FC09A5EB00BB87BEE5C04 /* SystemConfiguration.framework in Frameworks */,
+				88AB6D6A8273DE14D29684B670C70DB9 /* AstronomerAnalytics.framework in Frameworks */,
+				85C5BC8795CE155F619B7621599A3EB5 /* CoreData.framework in Frameworks */,
+				6110D7D70C49F04F55CCFED1C80AEACE /* Foundation.framework in Frameworks */,
+				72F31B18F84A74A879A036D8756751EF /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27EA7DCF54C9BCE02CD9BA9DAFD14794 /* Support Files */ = {
+		3452158D40AC57EE3DD378495491B3EC /* AstronomerAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				9CEDC8044268AAE5EEAF60E424CDF260 /* Astronomer-GoogleAnalytics.modulemap */,
-				70710BD6263CA9F7FB9DE320AA046C8F /* Astronomer-GoogleAnalytics.xcconfig */,
-				2DEB7225CC0284400374831397790758 /* Astronomer-GoogleAnalytics-dummy.m */,
-				A72E7761E3578D5D4D25CFA6F5C7E7BB /* Astronomer-GoogleAnalytics-prefix.pch */,
-				A31CDA9E2B558C801FE0AAE7FAE71CCF /* Astronomer-GoogleAnalytics-umbrella.h */,
-				AA52EF19B29DBAAFFB9B52A4C75A2B79 /* Info.plist */,
+				5AB63AB941096E4C4550043A799D7D7C /* NSData+SEGGZIP.h */,
+				CAE596FC116FFD01B14D65D8E0A1AB25 /* NSData+SEGGZIP.m */,
+				904BD07425FF47C966C28D8CD0B43CB5 /* SEGAES256Crypto.h */,
+				74D87E01124F155EC22E26D188CD9C08 /* SEGAES256Crypto.m */,
+				2EE6F447E6EFCA2FCF0CED80961FC5D0 /* SEGAliasPayload.h */,
+				16A200CE72B34CEFA00BB92450D9B8B9 /* SEGAliasPayload.m */,
+				819D39D1A18C2F2782AB8FF941A6B46B /* SEGAnalytics.h */,
+				2801352BB3786401EEB53712A72BB07C /* SEGAnalytics.m */,
+				03C43BAC5418DB10E7C38F261D95DCE4 /* SEGAnalyticsUtils.h */,
+				49C9028FEF479604AC6A2366360C5AB1 /* SEGAnalyticsUtils.m */,
+				A9C59C9A14C219DE085DD4DFFD9E60C3 /* SEGCrypto.h */,
+				D8DFD00D0F18F1AEB112F17472E15C6F /* SEGFileStorage.h */,
+				7EF8D280CBC8648E51BE87E02980FA5A /* SEGFileStorage.m */,
+				8B889A0198843CA3C312DE479304F852 /* SEGGroupPayload.h */,
+				EAFFDC64884096B408B1460E1E65F27D /* SEGGroupPayload.m */,
+				8239F4CD327174BE65137F32A21ACE27 /* SEGHTTPClient.h */,
+				930790506B5C7696228616E5EEB94EA6 /* SEGHTTPClient.m */,
+				CD3B25030652A39FFD3B2689C96A3121 /* SEGIdentifyPayload.h */,
+				D32EDD4020F48EB7A97854C452A5E8A7 /* SEGIdentifyPayload.m */,
+				B4332DA92DA0CE65E4E43820E3E9BB36 /* SEGIntegration.h */,
+				33503574C2CB40E1074F222F0F0C407E /* SEGIntegrationFactory.h */,
+				FAA6022936AE58BD2408F07801640728 /* SEGPayload.h */,
+				0666422222A7BF6511C283117D884770 /* SEGPayload.m */,
+				CD15C5C40E6EFF45426D22082DF1997F /* SEGReachability.h */,
+				0CF516D3DC052336B1E5386CC5DE9530 /* SEGReachability.m */,
+				724B674134DBD1F0D68BDB337BECFF9C /* SEGScreenPayload.h */,
+				21875B4D27982934A9C28F3CE0766DFD /* SEGScreenPayload.m */,
+				FEE1B87156F2C4C1480B0995C740B58D /* SEGSegmentIntegration.h */,
+				B6DD4B02D6EED71A3337F9E1DD09F7F1 /* SEGSegmentIntegration.m */,
+				2BF6F89100627B9AA1C00F28B3D339F5 /* SEGSegmentIntegrationFactory.h */,
+				685C229C1AB6AF7FD9554BE9EB40690B /* SEGSegmentIntegrationFactory.m */,
+				2F105583E1356D2122787BEB30993483 /* SEGStorage.h */,
+				BAC6137BD1685150EB514021205A0AD9 /* SEGStoreKitTracker.h */,
+				F334E3D904ECEB2FBB09725B55F21C42 /* SEGStoreKitTracker.m */,
+				A8FE60E1DBC35BDD29DF3E0B0FBE1877 /* SEGTrackPayload.h */,
+				7B336ACFA7BB0C9551620BD22874112E /* SEGTrackPayload.m */,
+				94BD038ABA1AF225EEBEEB1F6CDE6F3C /* SEGUserDefaultsStorage.h */,
+				9BCE041C8CC0BAAB1A2B7B6348A12FC9 /* SEGUserDefaultsStorage.m */,
+				B348CFD21C5E258FFCDB4903E5B6B2A4 /* SEGUtils.h */,
+				2E76DB6DC48B1FAA67A335716EEA1A60 /* SEGUtils.m */,
+				5B8FF7BBD471E76BE1153272E2873B56 /* UIViewController+SEGScreen.h */,
+				435DC9A726BC79EA82E534840DC3F991 /* UIViewController+SEGScreen.m */,
+				A90863BC79183FF2452953DF68479F48 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Astronomer-GoogleAnalytics";
+			name = AstronomerAnalytics;
+			path = AstronomerAnalytics;
 			sourceTree = "<group>";
 		};
 		3CFD48D2336DC5F776FE7403328CC2B5 /* Products */ = {
@@ -258,107 +287,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		42B9B515E9792A63E8299747E8C057A0 /* AstronomerAnalytics */ = {
+		5B38518212E513F98E3AF126F13CC47A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EB73330C04A6E3065D0EE1A6435F530C /* NSData+SEGGZIP.h */,
-				CB04B4EF26BCAC1DEE00CA68521E7904 /* NSData+SEGGZIP.m */,
-				E9F0E0518D4D44002E92E286D9880965 /* SEGAES256Crypto.h */,
-				E7905019DBDDFC17DE3B459A64214998 /* SEGAES256Crypto.m */,
-				C3E04F94D37B73C612F27AA7D00652D6 /* SEGAliasPayload.h */,
-				FEF38FB694414BF1F8770F291A581966 /* SEGAliasPayload.m */,
-				033492763D2F64194C5F18FEF33460D9 /* SEGAnalytics.h */,
-				D1DD36A7D385A9E5F1032A00F957965C /* SEGAnalytics.m */,
-				7F23B32823A680569321FFC5D4CE81BC /* SEGAnalyticsUtils.h */,
-				23B90D62BE82063CA58527306B5776FE /* SEGAnalyticsUtils.m */,
-				22570AB389AEFA2AA9F562ABF816AD64 /* SEGBluetooth.h */,
-				3644846B0B7EAC2E62A07E4BA8358EA2 /* SEGBluetooth.m */,
-				50033BD5DD02813B5DC2D3AD540A5269 /* SEGCrypto.h */,
-				3BB2C362FDAAC26C9E05DB69D668E293 /* SEGFileStorage.h */,
-				1DADC9922416115882EEAA8F11683363 /* SEGFileStorage.m */,
-				4FE3E42342E44B168A5E197C21C52DBF /* SEGGroupPayload.h */,
-				1D284A2D09EBDF4D133F970E81EB962F /* SEGGroupPayload.m */,
-				D1E6E3B2FEBB4A10DFA34DD3738E227E /* SEGHTTPClient.h */,
-				D3FD177216AF373187D42CC67CE84523 /* SEGHTTPClient.m */,
-				17293191A9E8F49E5094358865031312 /* SEGIdentifyPayload.h */,
-				EC5BA181D92D79A66C7342A44958A479 /* SEGIdentifyPayload.m */,
-				75170429B0CB33BE843F2D4344F64A78 /* SEGIntegration.h */,
-				FDD872E65AFF79EAC742DBEDB7251265 /* SEGIntegrationFactory.h */,
-				EFD3E36E740F59F82B797AE487B680E2 /* SEGLocation.h */,
-				4F93AFC9C915C62321B9A9915620EACA /* SEGLocation.m */,
-				91A81B587FE1AA4E0DFEA4347DACC0B8 /* SEGPayload.h */,
-				02E2C91B8218AAA0C2DD2AC72AFAC039 /* SEGPayload.m */,
-				C96F32614092D3CBD09820C4D03BC868 /* SEGReachability.h */,
-				9AF14017F493630168FBC9F4091711F6 /* SEGReachability.m */,
-				04C6370C1C2D23A354420E7A2CE6EAE1 /* SEGScreenPayload.h */,
-				6B55A0B73C78FE50CC873C6E582D8CEC /* SEGScreenPayload.m */,
-				52CAD251C983EAE6F2331BED48106555 /* SEGSegmentIntegration.h */,
-				A840C592974A8FBA5FF2AE12152AEBAE /* SEGSegmentIntegration.m */,
-				E74F10F6E170DADBBA5FD3E2B29D9F5D /* SEGSegmentIntegrationFactory.h */,
-				00193E2B1BD4F1DF0307A1866CE3F509 /* SEGSegmentIntegrationFactory.m */,
-				7D8C6C157026168A5A6EA2BBC1DA1703 /* SEGStorage.h */,
-				3C5C9FE0F33D291F8F476369D45AACDC /* SEGStoreKitTracker.h */,
-				60F2F584180416C4A9417A755EC6EF90 /* SEGStoreKitTracker.m */,
-				0D1C020452122F8F7D53271F8943480F /* SEGTrackPayload.h */,
-				981CADD24218880558EBCE6526752BE6 /* SEGTrackPayload.m */,
-				B4B197E667C34BBAFD494F7209AC44F1 /* SEGUserDefaultsStorage.h */,
-				EC1D1CF9227B19080501CDE01F40C30D /* SEGUserDefaultsStorage.m */,
-				31F3A9CB25BAAAF2E5AC8DB939FE2585 /* SEGUtils.h */,
-				758DF04927405A25C9EA0A388C5915D3 /* SEGUtils.m */,
-				E93BAE761F66AA6CD6D03E5D70F46769 /* UIViewController+SEGScreen.h */,
-				7141E0EE9B97909FB8525F5F5B980D76 /* UIViewController+SEGScreen.m */,
-				508C255A9184CBEA13557F94D6D4F3E9 /* Support Files */,
+				7A80C9D5744B02A50FF58FC6809D2B56 /* Astronomer-GoogleAnalytics */,
+				3452158D40AC57EE3DD378495491B3EC /* AstronomerAnalytics */,
 			);
-			path = AstronomerAnalytics;
-			sourceTree = "<group>";
-		};
-		508C255A9184CBEA13557F94D6D4F3E9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8321CDFC4FC7F77D0C72BEDD8AB55C2C /* AstronomerAnalytics.modulemap */,
-				437C1BF183D0483DB2A6B0B9E391CC18 /* AstronomerAnalytics.xcconfig */,
-				785768284897CBB581E017E52CF3DD57 /* AstronomerAnalytics-dummy.m */,
-				607ECB91696C0EC3342AEEAD95CF7E25 /* AstronomerAnalytics-prefix.pch */,
-				7F690825A7E6A205B7CDF112FE85926B /* AstronomerAnalytics-umbrella.h */,
-				43C64EE14C453F34791B12D5365AFD16 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AstronomerAnalytics";
-			sourceTree = "<group>";
-		};
-		5294A022ECDCA2353FF205C464ADA502 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				DFDAF982D230BF98BF29427E65681EDD /* CoreData.framework */,
-				12E04742C1B992B73535B4634EEE09A4 /* Foundation.framework */,
-				296010E313C398694EDD602EB8F86119 /* Security.framework */,
-				FFD69C6968E3B9C51C4BBB51C7C3D668 /* SystemConfiguration.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		74BEB79EF3124C691E86D4DF2561D367 /* Astronomer-GoogleAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				6C7A2E365AD5219ED6859B478DACCFBE /* GAI.h */,
-				88C9BEEFAAF6AF6ACFC5256DF1572C46 /* GAIDictionaryBuilder.h */,
-				81B60BB559C647C33554B4F705D94F7B /* GAIEcommerceFields.h */,
-				C271869F2EB94835F07CFFFE75D472B8 /* GAIEcommerceProduct.h */,
-				6DA0A7DFEEB75F489D2D99E6F4F25709 /* GAIEcommerceProductAction.h */,
-				50356F39F3F0C7E673901D31EA7F3204 /* GAIEcommercePromotion.h */,
-				8271041BD6EE0D7274B395E38C95D998 /* GAIFields.h */,
-				03A175B14F7B8FF84C836B0A5664A27D /* GAILogger.h */,
-				082BDAE2B3068A1AB72BCF28F92826E9 /* GAITrackedViewController.h */,
-				7BB38C43BD1856B7D35BD14676E2C30A /* GAITracker.h */,
-				74079987152A8E0BBDAB2351956AB86F /* libGoogleAnalyticsServices.a */,
-				AC5560E3A4EEF99DEDD80700C7FC899D /* SEGGoogleAnalyticsIntegration.h */,
-				D5223A5621275D340AEB33A4E1264A04 /* SEGGoogleAnalyticsIntegration.m */,
-				A2804C94E42E154F4C8D28FBE4F768E8 /* SEGGoogleAnalyticsIntegrationFactory.h */,
-				17C707F2F40DEFF36B1413147C4485BC /* SEGGoogleAnalyticsIntegrationFactory.m */,
-				BFE0A55B78A20F556605851245A853C9 /* Frameworks */,
-				27EA7DCF54C9BCE02CD9BA9DAFD14794 /* Support Files */,
-			);
-			path = "Astronomer-GoogleAnalytics";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		778446FBE63599EA3FE00E736C3EE552 /* Targets Support Files */ = {
@@ -369,24 +304,68 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		7A80C9D5744B02A50FF58FC6809D2B56 /* Astronomer-GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				E28AD792F9AE5DFE14CCBC9F7F233337 /* GAI.h */,
+				5F8852EAAA8F9FD6A24520DBB29142D2 /* GAIDictionaryBuilder.h */,
+				770DC25CA2D773930A08E4A5F2106733 /* GAIEcommerceFields.h */,
+				CE6D89C830121A1F205A92BA93CB9833 /* GAIEcommerceProduct.h */,
+				DE8BE2420BEEAF9F510A86523D034B10 /* GAIEcommerceProductAction.h */,
+				C1FE3291C2185EC8B3818695273FCB27 /* GAIEcommercePromotion.h */,
+				BBFCC85A5DFE1E1111DFC6645F987493 /* GAIFields.h */,
+				C94369F682304FCECDA9D460CD8E6738 /* GAILogger.h */,
+				767FBCA5A62840009A1F3A1224EFD83C /* GAITrackedViewController.h */,
+				3B23FB0C429ED586106F200C84656F08 /* GAITracker.h */,
+				F93A8170B0541B58B444EA97121DFF56 /* libGoogleAnalyticsServices.a */,
+				79F745DF856A3DA9C1116E334549C05F /* SEGGoogleAnalyticsIntegration.h */,
+				60DDB30DC6537EB7F57D5C6622F8FA38 /* SEGGoogleAnalyticsIntegration.m */,
+				52C40B4D92CDC485573FB5C688F3224D /* SEGGoogleAnalyticsIntegrationFactory.h */,
+				6E4562721929C2809424332897C2B564 /* SEGGoogleAnalyticsIntegrationFactory.m */,
+				B7C8DC201194708AA3B809BCCEE9DAFF /* Frameworks */,
+				82C71C1039F0B443C3C194F54B7852AC /* Support Files */,
+			);
+			name = "Astronomer-GoogleAnalytics";
+			path = "Astronomer-GoogleAnalytics";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				E2B26FE2E315E84A3CB601828F36DD05 /* Frameworks */,
-				95A19848676B97EA8B6F4946E091022B /* Pods */,
+				5B38518212E513F98E3AF126F13CC47A /* Pods */,
 				3CFD48D2336DC5F776FE7403328CC2B5 /* Products */,
 				778446FBE63599EA3FE00E736C3EE552 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		95A19848676B97EA8B6F4946E091022B /* Pods */ = {
+		82C71C1039F0B443C3C194F54B7852AC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				74BEB79EF3124C691E86D4DF2561D367 /* Astronomer-GoogleAnalytics */,
-				42B9B515E9792A63E8299747E8C057A0 /* AstronomerAnalytics */,
+				62C6FC0C8DF28BB2EDCC18FCB6E68774 /* Astronomer-GoogleAnalytics.modulemap */,
+				FFCA32FCD8CFC62274C0D455BF128958 /* Astronomer-GoogleAnalytics.xcconfig */,
+				2EEB443A4983D3F7A91E2A632044FD35 /* Astronomer-GoogleAnalytics-dummy.m */,
+				42E545F55B73AD9A5081AA3DC2EBE508 /* Astronomer-GoogleAnalytics-prefix.pch */,
+				2DC94C603CFBBC421A7A4B7372258632 /* Astronomer-GoogleAnalytics-umbrella.h */,
+				199BB82B4A0A6D894151691290E5A5DE /* Info.plist */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/Astronomer-GoogleAnalytics";
+			sourceTree = "<group>";
+		};
+		A90863BC79183FF2452953DF68479F48 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C132D207DC717372B5C5C3709528177 /* AstronomerAnalytics.modulemap */,
+				C31FFEC995723277BA61D1D8847A11D4 /* AstronomerAnalytics.xcconfig */,
+				E10D503834C3E14DAD69AC1DD4246966 /* AstronomerAnalytics-dummy.m */,
+				D18668DA2B9BFC40B33439E605BD9528 /* AstronomerAnalytics-prefix.pch */,
+				7684E985044962CF81C63E07493988D9 /* AstronomerAnalytics-umbrella.h */,
+				3B213EB8D961CD1725544D896719EEB7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AstronomerAnalytics";
 			sourceTree = "<group>";
 		};
 		B3493552A47C748A3E3969E582684BCD /* Pods-Astronomer Analytics Example */ = {
@@ -407,7 +386,7 @@
 			path = "Target Support Files/Pods-Astronomer Analytics Example";
 			sourceTree = "<group>";
 		};
-		BFE0A55B78A20F556605851245A853C9 /* Frameworks */ = {
+		B7C8DC201194708AA3B809BCCEE9DAFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -418,85 +397,112 @@
 			isa = PBXGroup;
 			children = (
 				82684BE32CF43F5D89D96AACC464834C /* AstronomerAnalytics.framework */,
-				5294A022ECDCA2353FF205C464ADA502 /* iOS */,
+				E79535127E7E945D9263726BB6C1371C /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E79535127E7E945D9263726BB6C1371C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				15DD7ADFDD9B0E1B3A5007BBE334A536 /* CoreData.framework */,
+				E1BA275194EEDA2F610E808E61E4736E /* Foundation.framework */,
+				E492AFE28F9EE5AB8C3CC50987A15390 /* Security.framework */,
+				ECE50BA6E275EBA6C80CDBD9C236D95E /* SystemConfiguration.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A49638A9BE3FFDA3CF9201057356BE1D /* Headers */ = {
+		363450BD8B34947EEAE9A726FEFB6A8D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43C523EC9AF34F19C424F241EFAEB003 /* Astronomer-GoogleAnalytics-umbrella.h in Headers */,
-				199093ED6AFBAB8EC48D0D9EA59E4CF8 /* GAI.h in Headers */,
-				4533F5AFEBF2F279A5C0929D52DE41BC /* GAIDictionaryBuilder.h in Headers */,
-				43246E480D841940C794574A9B41D2B6 /* GAIEcommerceFields.h in Headers */,
-				3F2A8ADA390AAD9A5A232DE06FFED1B1 /* GAIEcommerceProduct.h in Headers */,
-				78BA8EB5B350266C962433E3285FEE37 /* GAIEcommerceProductAction.h in Headers */,
-				3829EED132F66AD0483F6ADF17D41811 /* GAIEcommercePromotion.h in Headers */,
-				CF1DD077C52F872D5ABCE0AFDCAE103B /* GAIFields.h in Headers */,
-				AEE9A3CD9422BCB0C8856EEA89F584DA /* GAILogger.h in Headers */,
-				BC9BCFEF87A099518EBE67404F660810 /* GAITrackedViewController.h in Headers */,
-				507B9FFC3ABDB721BE82C47AFA8E4E7B /* GAITracker.h in Headers */,
-				F9CA4977BAF97429AE55126FAA0AF7EB /* SEGGoogleAnalyticsIntegration.h in Headers */,
-				AAFE450D75449085A21E34DF2912B072 /* SEGGoogleAnalyticsIntegrationFactory.h in Headers */,
+				8749D731EC80BE7BBBB086B7C5A46E7F /* Astronomer-GoogleAnalytics-umbrella.h in Headers */,
+				40F4A098E4F8349BC60976635B2D01E0 /* GAI.h in Headers */,
+				FE0179D668F7CC1A6F8CED5D92E4CCC9 /* GAIDictionaryBuilder.h in Headers */,
+				1D93BA1A7EB136A09650807F1CC13479 /* GAIEcommerceFields.h in Headers */,
+				E39CF8034B9BBBB4B3B1607ACBA1C8DC /* GAIEcommerceProduct.h in Headers */,
+				6B6802C84B005B02188DC4459DEAC499 /* GAIEcommerceProductAction.h in Headers */,
+				909B8F006B3F931CE8B56473334C8AE4 /* GAIEcommercePromotion.h in Headers */,
+				70C18724D2464B4D5E3A8C81FABD1F12 /* GAIFields.h in Headers */,
+				7866DDBFDD18829A74169232F6267795 /* GAILogger.h in Headers */,
+				DFA08842591BCD9BBB8C40256F192219 /* GAITrackedViewController.h in Headers */,
+				BB4174BDA4318A2884FC1CF990E006E5 /* GAITracker.h in Headers */,
+				4A2CDE6C04056D85444F34FB5C0AF43E /* SEGGoogleAnalyticsIntegration.h in Headers */,
+				8C52059198A156F7BB94B384A18E10F2 /* SEGGoogleAnalyticsIntegrationFactory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B92B67FCD087884F80744D9C63B4E72F /* Headers */ = {
+		ACD3B57A8315D19162A145201E770B09 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B10CAE764514C2BA5727A4C3FBFC7E2 /* Pods-Astronomer Analytics Example-umbrella.h in Headers */,
+				0A7D3805680B7591B8B59D189F50026F /* AstronomerAnalytics-umbrella.h in Headers */,
+				F41960790A20A8CBE04B0A9DC20662F6 /* NSData+SEGGZIP.h in Headers */,
+				AC3C1C848204C202C3DD4C380953CADB /* SEGAES256Crypto.h in Headers */,
+				CA65AF956C125E2DA2390F7C3CE0E8E7 /* SEGAliasPayload.h in Headers */,
+				C832B9B6FB22CBA367D4AEE9D1687165 /* SEGAnalytics.h in Headers */,
+				726D5954498562C582802273530FC784 /* SEGAnalyticsUtils.h in Headers */,
+				66F0348214E03CAD7249331BB6A5FA47 /* SEGCrypto.h in Headers */,
+				E883E355FA30FF64423132C417145E18 /* SEGFileStorage.h in Headers */,
+				66A4C96008B10E9756579DE3053C7EFA /* SEGGroupPayload.h in Headers */,
+				DEA6DAD4E537F78616B9A1178367E1DB /* SEGHTTPClient.h in Headers */,
+				899CFB5AA0CB48BC13EB030A3E005FC8 /* SEGIdentifyPayload.h in Headers */,
+				0F88BBE4E7643E83E803D6B66B273DAC /* SEGIntegration.h in Headers */,
+				455E3CED8FE82BAEFCD77A2A57D953E1 /* SEGIntegrationFactory.h in Headers */,
+				06370AAD0DEFFE723CAF66E4F5D2D992 /* SEGPayload.h in Headers */,
+				67589AFA04209D2F88EF5695E19ADADC /* SEGReachability.h in Headers */,
+				6349A6C29DDCCCE8767BEE625CDA88BA /* SEGScreenPayload.h in Headers */,
+				46324320406A5D17CDDB2F7238CFA65E /* SEGSegmentIntegration.h in Headers */,
+				8450E8800F81934B9D69B3EE3341EF59 /* SEGSegmentIntegrationFactory.h in Headers */,
+				4A5861D87245A4D9BCA9CF31FAC31FC4 /* SEGStorage.h in Headers */,
+				F53FC512E65884D31F414F003F603A7A /* SEGStoreKitTracker.h in Headers */,
+				7908FE9D3708FE9833890D5EAB127ED5 /* SEGTrackPayload.h in Headers */,
+				7AA99FB55251375A39CD113002F11A58 /* SEGUserDefaultsStorage.h in Headers */,
+				CFF4BA1D36BB7C94744D9F3274EEE9B5 /* SEGUtils.h in Headers */,
+				C2B8CCC2CAFB2FFEE32A000846844889 /* UIViewController+SEGScreen.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4617BAF80E09F3CCB9C0F10726FA576 /* Headers */ = {
+		DC2B1DA6D5D0BC6CE75FED6744369FE2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782EB27817B717BDB44E0786CBFB9C86 /* AstronomerAnalytics-umbrella.h in Headers */,
-				F4C0AA19210A8CAFCEF095FB672A0516 /* NSData+SEGGZIP.h in Headers */,
-				A40AD2D4C7732D99B685768A171781B4 /* SEGAES256Crypto.h in Headers */,
-				3A5FBCE8F6DFEE43757261C00DF470B4 /* SEGAliasPayload.h in Headers */,
-				FE4D15CE8C5A77AD900344D90F09F09D /* SEGAnalytics.h in Headers */,
-				9BAF86D794BAD268A98D1211E435F54B /* SEGAnalyticsUtils.h in Headers */,
-				E182702CB62C977C8F1622AF239A7322 /* SEGBluetooth.h in Headers */,
-				D5EA9E68407D60691AE79002350DEF50 /* SEGCrypto.h in Headers */,
-				F437E834A5DE1AFDB0ED3A9DEAE39330 /* SEGFileStorage.h in Headers */,
-				5768EE2DE4D1E4AAA58B3F9C9168831A /* SEGGroupPayload.h in Headers */,
-				0CE67F8AF1F18BB5958FAADBFDAD2AAF /* SEGHTTPClient.h in Headers */,
-				3E707CE7185D3F94740F07FE8DAB69FD /* SEGIdentifyPayload.h in Headers */,
-				48BC0688B7955C70E71AFD6CB0730798 /* SEGIntegration.h in Headers */,
-				D8AF5BBF5837F8F9EC4CCF33B205FD9C /* SEGIntegrationFactory.h in Headers */,
-				87500587CAAC9C8352D60089CD971226 /* SEGLocation.h in Headers */,
-				07C8EA66D99782351112613B498074D2 /* SEGPayload.h in Headers */,
-				D272DB178F1D0B44A23E6FB796EBA46B /* SEGReachability.h in Headers */,
-				5D91B1BC4002D6AB5FB08BD0D9A64DBD /* SEGScreenPayload.h in Headers */,
-				3444849B367D25E3D8091145B53C4577 /* SEGSegmentIntegration.h in Headers */,
-				B422AD1EF888DB631216D7686B066507 /* SEGSegmentIntegrationFactory.h in Headers */,
-				00DD6C3C87374E88D7D9C8DD15276156 /* SEGStorage.h in Headers */,
-				E6E95EC9D1C90E255B52AA7C17AEF326 /* SEGStoreKitTracker.h in Headers */,
-				2969FFB724B9D4DAF9C8534F868B81B1 /* SEGTrackPayload.h in Headers */,
-				4D03583B82A31248F3667D14F7FF5DA0 /* SEGUserDefaultsStorage.h in Headers */,
-				9D258DB1A01DC718875ECC95251AE8E1 /* SEGUtils.h in Headers */,
-				BF0834FAD449768FF80E403D7090F26B /* UIViewController+SEGScreen.h in Headers */,
+				FF09A126EC85A2E5E777506BCD1D0F5C /* Pods-Astronomer Analytics Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2E66E651D0FB24ED1764577807C5845D /* AstronomerAnalytics */ = {
+		4794AB314F9D4343FE469A0263698664 /* Astronomer-GoogleAnalytics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC72D2861A58D4F857B0E7F6D337B3C9 /* Build configuration list for PBXNativeTarget "AstronomerAnalytics" */;
+			buildConfigurationList = 32DB879F0DBEA26FFC849253AFD7E199 /* Build configuration list for PBXNativeTarget "Astronomer-GoogleAnalytics" */;
 			buildPhases = (
-				A518721D092C3B32692B532FCC954B7A /* Sources */,
-				163C8316C3053FE4E2AC631649F1CF94 /* Frameworks */,
-				D4617BAF80E09F3CCB9C0F10726FA576 /* Headers */,
+				DEA5E093C44701C810021D7CB50A1A74 /* Sources */,
+				C5E414812B847960F57796C7B348657F /* Frameworks */,
+				363450BD8B34947EEAE9A726FEFB6A8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				757F4F2AC70D795E0AD871A80084B5B0 /* PBXTargetDependency */,
+			);
+			name = "Astronomer-GoogleAnalytics";
+			productName = "Astronomer-GoogleAnalytics";
+			productReference = B88244F6F1635D641D1906BAC50ADF2C /* Astronomer_GoogleAnalytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62E9AC7FF97B17B2667C3D89ED6A5739 /* AstronomerAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE08980F4879FEB1FAD21AE118B0451E /* Build configuration list for PBXNativeTarget "AstronomerAnalytics" */;
+			buildPhases = (
+				AA9FDDE33710EC1CB756D4AF318A5D4A /* Sources */,
+				20CE731C91E79EB42C2228CBD5603F9F /* Frameworks */,
+				ACD3B57A8315D19162A145201E770B09 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -507,41 +513,23 @@
 			productReference = 03CAA3377E0B3471A45A5D31002756F2 /* AstronomerAnalytics.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		414F401E39A0AA27B3771B330CE8FF2E /* Pods-Astronomer Analytics Example */ = {
+		9D2623CA370D3D46B04CFC4CB68346D4 /* Pods-Astronomer Analytics Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 563056D8A8BB6D6B9A66D52EB11C349A /* Build configuration list for PBXNativeTarget "Pods-Astronomer Analytics Example" */;
+			buildConfigurationList = A8186C5E21EFB1C39800DB9CB6467FD7 /* Build configuration list for PBXNativeTarget "Pods-Astronomer Analytics Example" */;
 			buildPhases = (
-				EB1428FA42E88051AFB39DA9773E13EB /* Sources */,
-				4FFCD202B57695FCFB9142B13B12321C /* Frameworks */,
-				B92B67FCD087884F80744D9C63B4E72F /* Headers */,
+				3AB7F02C3DA4137A54FA5670C0271367 /* Sources */,
+				68E1225D5E13FD44D7AAADBD751F21B8 /* Frameworks */,
+				DC2B1DA6D5D0BC6CE75FED6744369FE2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				13BB1CABBA6E8F341169608638440328 /* PBXTargetDependency */,
-				09313E79E76C4D7DACA14BB4C1DD9349 /* PBXTargetDependency */,
+				97F5D32D6D81F2B1AC4A369A3C2F4B3E /* PBXTargetDependency */,
+				088063A1ED64A4CD70E3ED2E31CCC264 /* PBXTargetDependency */,
 			);
 			name = "Pods-Astronomer Analytics Example";
 			productName = "Pods-Astronomer Analytics Example";
 			productReference = 8DFD061553270B3EE16AD234B745DDEA /* Pods_Astronomer_Analytics_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E78D5E1CA31F4A3660E3C4F5D953CA3F /* Astronomer-GoogleAnalytics */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8AFA686F7890C9BCBCFF56ED1D794223 /* Build configuration list for PBXNativeTarget "Astronomer-GoogleAnalytics" */;
-			buildPhases = (
-				4BD60B0A2926E300BE4E527E81C74BCD /* Sources */,
-				5BEA1C148A7C7A56333D00C114B773A4 /* Frameworks */,
-				A49638A9BE3FFDA3CF9201057356BE1D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				89A7B502398B80EF6CE0864752580488 /* PBXTargetDependency */,
-			);
-			name = "Astronomer-GoogleAnalytics";
-			productName = "Astronomer-GoogleAnalytics";
-			productReference = B88244F6F1635D641D1906BAC50ADF2C /* Astronomer_GoogleAnalytics.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -565,116 +553,85 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E78D5E1CA31F4A3660E3C4F5D953CA3F /* Astronomer-GoogleAnalytics */,
-				2E66E651D0FB24ED1764577807C5845D /* AstronomerAnalytics */,
-				414F401E39A0AA27B3771B330CE8FF2E /* Pods-Astronomer Analytics Example */,
+				4794AB314F9D4343FE469A0263698664 /* Astronomer-GoogleAnalytics */,
+				62E9AC7FF97B17B2667C3D89ED6A5739 /* AstronomerAnalytics */,
+				9D2623CA370D3D46B04CFC4CB68346D4 /* Pods-Astronomer Analytics Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4BD60B0A2926E300BE4E527E81C74BCD /* Sources */ = {
+		3AB7F02C3DA4137A54FA5670C0271367 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B54AA7E9D6DB4FCD598ECECA0C44524E /* Astronomer-GoogleAnalytics-dummy.m in Sources */,
-				FF1FB43002F047790A34C612DC907E19 /* libGoogleAnalyticsServices.a in Sources */,
-				06DD347C967608B410AAC2D811795E2E /* SEGGoogleAnalyticsIntegration.m in Sources */,
-				29F2393DFE43926B8B1D84C179356A4B /* SEGGoogleAnalyticsIntegrationFactory.m in Sources */,
+				695707D3D4544702A8E7B6A8A308FED4 /* Pods-Astronomer Analytics Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A518721D092C3B32692B532FCC954B7A /* Sources */ = {
+		AA9FDDE33710EC1CB756D4AF318A5D4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47C047F971C7EB0BA406BB1AD204EA71 /* AstronomerAnalytics-dummy.m in Sources */,
-				69E3DECBA0E3A9DD3CD19E8B5692E198 /* NSData+SEGGZIP.m in Sources */,
-				991CEB6B1444F84A7F47284FB51E921C /* SEGAES256Crypto.m in Sources */,
-				88B1FC193387A2B9A8522D2BE1F5E27D /* SEGAliasPayload.m in Sources */,
-				2980A89FBE055E0C21E1ED92A4EB95D3 /* SEGAnalytics.m in Sources */,
-				19DE1FF33BA02426399DF52254437ECF /* SEGAnalyticsUtils.m in Sources */,
-				171B870814B0B8FC703A5E62DFF04688 /* SEGBluetooth.m in Sources */,
-				7DFB82D1E912C7AF88E58F8DB9C76047 /* SEGFileStorage.m in Sources */,
-				AC11A978B3AC73B1A3582321C6A62065 /* SEGGroupPayload.m in Sources */,
-				7C71D57A48A505D2A7082024D1460201 /* SEGHTTPClient.m in Sources */,
-				D9D7818394D94BFAABF3661D0D9D5247 /* SEGIdentifyPayload.m in Sources */,
-				C29E432D9445D53CB62E60704F8BC250 /* SEGLocation.m in Sources */,
-				4615A4634759F55FA30890312892541B /* SEGPayload.m in Sources */,
-				C4EC44A97EA0F52B22767CBCE76CC92B /* SEGReachability.m in Sources */,
-				27BA166DD8B1AA6CBA91F180FFF4F2B4 /* SEGScreenPayload.m in Sources */,
-				C0327383DC84681AE3B1921BD3408005 /* SEGSegmentIntegration.m in Sources */,
-				4EFD042C1A5EE8824C07DF0064DC7CCB /* SEGSegmentIntegrationFactory.m in Sources */,
-				4A1F8BBE8F7B7488F0F043B75D2A4A84 /* SEGStoreKitTracker.m in Sources */,
-				564DAA84BAD242CD1619C0D80065EA30 /* SEGTrackPayload.m in Sources */,
-				D0A37E3C9735D186259310AA04702E39 /* SEGUserDefaultsStorage.m in Sources */,
-				944A9EE4AB604EE10F6353C65DA36A72 /* SEGUtils.m in Sources */,
-				89BF91AB73771889559F3D0B1907070B /* UIViewController+SEGScreen.m in Sources */,
+				9469EE7A4771A90BA4CBFDCA45AAF388 /* AstronomerAnalytics-dummy.m in Sources */,
+				09E1D95288A292E788C215D6B7D2D16C /* NSData+SEGGZIP.m in Sources */,
+				CBE45DB821460B4105E1A867B516306C /* SEGAES256Crypto.m in Sources */,
+				8D1B44FADDDF0206236D28D4A0679314 /* SEGAliasPayload.m in Sources */,
+				9630B96AC90E5A246FAC868BF7886B82 /* SEGAnalytics.m in Sources */,
+				C716A581EDCA3A1969A81A591EC73BCE /* SEGAnalyticsUtils.m in Sources */,
+				9A5247960B954DD92B1AC1DF2163B8B3 /* SEGFileStorage.m in Sources */,
+				B25F6C47A9C6119C60E169DD2275EF8A /* SEGGroupPayload.m in Sources */,
+				05BC1B3CBBEBC425C7CE35A71A657328 /* SEGHTTPClient.m in Sources */,
+				75C10391E09742612D61E4DDDF0FEF41 /* SEGIdentifyPayload.m in Sources */,
+				6AEBD3F3ECFC6B88C0A31718948F5EFB /* SEGPayload.m in Sources */,
+				386141BF10FA3B560319705F7E75A692 /* SEGReachability.m in Sources */,
+				E74FECBA11CBB65FDAB33C3A81FF6178 /* SEGScreenPayload.m in Sources */,
+				ACC28E8D318F90A0B3385C05E8CE2B16 /* SEGSegmentIntegration.m in Sources */,
+				2BC6BE21A3C3FB259D86E1E6C5633160 /* SEGSegmentIntegrationFactory.m in Sources */,
+				CF5E53E7B7D4F40CAD1431F9CAB21BEC /* SEGStoreKitTracker.m in Sources */,
+				094E47C08B20449761515CB4381AABDC /* SEGTrackPayload.m in Sources */,
+				76DA46F7F2C00C28E7CCD966FD7F60DB /* SEGUserDefaultsStorage.m in Sources */,
+				5F146235BEDDF595E1F2E4D8898569BD /* SEGUtils.m in Sources */,
+				D20BD711DCFDB8FAD2ABC997BF37126C /* UIViewController+SEGScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB1428FA42E88051AFB39DA9773E13EB /* Sources */ = {
+		DEA5E093C44701C810021D7CB50A1A74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63BC75DC44BD1363029AACCEC450C572 /* Pods-Astronomer Analytics Example-dummy.m in Sources */,
+				1FEF8C940001EB80C1073E996BA8A9D4 /* Astronomer-GoogleAnalytics-dummy.m in Sources */,
+				D1278F6257D3078168DB04CA6BEC95F8 /* libGoogleAnalyticsServices.a in Sources */,
+				B57D827CD1AAC484085890FF9F3728B5 /* SEGGoogleAnalyticsIntegration.m in Sources */,
+				4B3F71B8CA9632E239EF06D9114F02B7 /* SEGGoogleAnalyticsIntegrationFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		09313E79E76C4D7DACA14BB4C1DD9349 /* PBXTargetDependency */ = {
+		088063A1ED64A4CD70E3ED2E31CCC264 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AstronomerAnalytics;
-			target = 2E66E651D0FB24ED1764577807C5845D /* AstronomerAnalytics */;
-			targetProxy = 01E8DF50F29F31A9CB43780081DEA831 /* PBXContainerItemProxy */;
+			target = 62E9AC7FF97B17B2667C3D89ED6A5739 /* AstronomerAnalytics */;
+			targetProxy = EAB5CFBAD3983F1C9DC6866C2B2196A8 /* PBXContainerItemProxy */;
 		};
-		13BB1CABBA6E8F341169608638440328 /* PBXTargetDependency */ = {
+		757F4F2AC70D795E0AD871A80084B5B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AstronomerAnalytics;
+			target = 62E9AC7FF97B17B2667C3D89ED6A5739 /* AstronomerAnalytics */;
+			targetProxy = E326134156CE0873D892E7EDAFCFF424 /* PBXContainerItemProxy */;
+		};
+		97F5D32D6D81F2B1AC4A369A3C2F4B3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Astronomer-GoogleAnalytics";
-			target = E78D5E1CA31F4A3660E3C4F5D953CA3F /* Astronomer-GoogleAnalytics */;
-			targetProxy = 65037190B2E839F58A9B8B82626AAAA2 /* PBXContainerItemProxy */;
-		};
-		89A7B502398B80EF6CE0864752580488 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AstronomerAnalytics;
-			target = 2E66E651D0FB24ED1764577807C5845D /* AstronomerAnalytics */;
-			targetProxy = 8FD052E983CA9487CEC5AEB5BE0C3F3A /* PBXContainerItemProxy */;
+			target = 4794AB314F9D4343FE469A0263698664 /* Astronomer-GoogleAnalytics */;
+			targetProxy = 0B4FA3BD02A56D597AD84436745F4134 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		177DDB6914E3D92835A12F5B6F84E8A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 437C1BF183D0483DB2A6B0B9E391CC18 /* AstronomerAnalytics.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AstronomerAnalytics/AstronomerAnalytics-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AstronomerAnalytics/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AstronomerAnalytics/AstronomerAnalytics.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AstronomerAnalytics;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -692,44 +649,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -749,16 +669,121 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		8F7706806A7A505A5AD11D80BFC6F906 /* Debug */ = {
+		14679ECB8CAC567309CE26B8735E39F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 437C1BF183D0483DB2A6B0B9E391CC18 /* AstronomerAnalytics.xcconfig */;
+			baseConfigurationReference = C31FFEC995723277BA61D1D8847A11D4 /* AstronomerAnalytics.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AstronomerAnalytics/AstronomerAnalytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AstronomerAnalytics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AstronomerAnalytics/AstronomerAnalytics.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AstronomerAnalytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		557FB733A1E8E4F24A453A80A91EC70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE595730512F859252CB12FED61E3C6D /* Pods-Astronomer Analytics Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Astronomer Analytics Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Astronomer Analytics Example/Pods-Astronomer Analytics Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Astronomer_Analytics_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59719CF94F0BC602E55BF8C6D2F452A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D93398C57CC5E731ED0DF3FCBFB33C /* Pods-Astronomer Analytics Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Astronomer Analytics Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Astronomer Analytics Example/Pods-Astronomer Analytics Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Astronomer_Analytics_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A9592C1F3B556D729687EAB7A125E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31FFEC995723277BA61D1D8847A11D4 /* AstronomerAnalytics.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -777,17 +802,60 @@
 				PRODUCT_NAME = AstronomerAnalytics;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		A84E64C530DAB0FC16C22AEAF2D51429 /* Release */ = {
+		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70710BD6263CA9F7FB9DE320AA046C8F /* Astronomer-GoogleAnalytics.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B73EC202D9E8E4D759492D307847F223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFCA32FCD8CFC62274C0D455BF128958 /* Astronomer-GoogleAnalytics.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -806,50 +874,20 @@
 				PRODUCT_NAME = Astronomer_GoogleAnalytics;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		BE0D02F1F9B4CD7E5BA23C01AE4A7007 /* Release */ = {
+		CD7CA9D49FE0E8B871164215A70FA940 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3D93398C57CC5E731ED0DF3FCBFB33C /* Pods-Astronomer Analytics Example.release.xcconfig */;
+			baseConfigurationReference = FFCA32FCD8CFC62274C0D455BF128958 /* Astronomer-GoogleAnalytics.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Astronomer Analytics Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Astronomer Analytics Example/Pods-Astronomer Analytics Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Astronomer_Analytics_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E6F9F2DE1F1F256BF2D845A38A5556EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70710BD6263CA9F7FB9DE320AA046C8F /* Astronomer-GoogleAnalytics.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -868,39 +906,7 @@
 				PRODUCT_NAME = Astronomer_GoogleAnalytics;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E76D6D7DC117EC57BB2D4AD47D8F3690 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE595730512F859252CB12FED61E3C6D /* Pods-Astronomer Analytics Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Astronomer Analytics Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Astronomer Analytics Example/Pods-Astronomer Analytics Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Astronomer_Analytics_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -913,35 +919,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
-				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+				13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */,
+				862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		563056D8A8BB6D6B9A66D52EB11C349A /* Build configuration list for PBXNativeTarget "Pods-Astronomer Analytics Example" */ = {
+		32DB879F0DBEA26FFC849253AFD7E199 /* Build configuration list for PBXNativeTarget "Astronomer-GoogleAnalytics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E76D6D7DC117EC57BB2D4AD47D8F3690 /* Debug */,
-				BE0D02F1F9B4CD7E5BA23C01AE4A7007 /* Release */,
+				CD7CA9D49FE0E8B871164215A70FA940 /* Debug */,
+				B73EC202D9E8E4D759492D307847F223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8AFA686F7890C9BCBCFF56ED1D794223 /* Build configuration list for PBXNativeTarget "Astronomer-GoogleAnalytics" */ = {
+		A8186C5E21EFB1C39800DB9CB6467FD7 /* Build configuration list for PBXNativeTarget "Pods-Astronomer Analytics Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E6F9F2DE1F1F256BF2D845A38A5556EB /* Debug */,
-				A84E64C530DAB0FC16C22AEAF2D51429 /* Release */,
+				557FB733A1E8E4F24A453A80A91EC70D /* Debug */,
+				59719CF94F0BC602E55BF8C6D2F452A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC72D2861A58D4F857B0E7F6D337B3C9 /* Build configuration list for PBXNativeTarget "AstronomerAnalytics" */ = {
+		FE08980F4879FEB1FAD21AE118B0451E /* Build configuration list for PBXNativeTarget "AstronomerAnalytics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F7706806A7A505A5AD11D80BFC6F906 /* Debug */,
-				177DDB6914E3D92835A12F5B6F84E8A1 /* Release */,
+				7A9592C1F3B556D729687EAB7A125E0D /* Debug */,
+				14679ECB8CAC567309CE26B8735E39F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

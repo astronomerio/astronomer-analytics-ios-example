@@ -6,6 +6,6 @@ target 'Astronomer Analytics Example' do
   use_frameworks!
 
   # Pods for Astronomer Analytics Example
-  pod 'AstronomerAnalytics’, :git => ‘https://github.com/astronomerio/analytics-ios.git'
+  pod 'AstronomerAnalytics'
   pod 'Astronomer-GoogleAnalytics'
 end
